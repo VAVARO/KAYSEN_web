@@ -100,7 +100,12 @@ export default function App() {
       <footer className="bg-white border-t border-surface-variant py-8 px-4 md:px-8 mt-auto">
         <div className="max-w-container-max mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <img src="./logo.png" alt="KAYSEN Logo" className="h-7 w-auto object-contain" />
+            <img 
+              src="./logo.png" 
+              alt="KAYSEN Logo" 
+              className="h-8 w-auto object-contain rounded"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
             <div>
               <p className="font-serif font-bold text-sm text-primary">Proyecto KAYSEN — Fase 1</p>
               <p className="text-[11px] text-secondary">
@@ -108,8 +113,8 @@ export default function App() {
               </p>
             </div>
           </div>
-          <p className="text-xs text-secondary text-center md:text-right">
-            © 2022 – 2026 Proyecto KAYSEN. Consolidados oficiales del territorio.
+          <p className="text-xs text-secondary text-center md:text-right font-medium">
+            Desarrollado por Álvaro Contreras Barrios — Documento de uso interno.
           </p>
         </div>
       </footer>

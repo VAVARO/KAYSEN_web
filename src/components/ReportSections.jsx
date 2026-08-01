@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import { BookOpen, Target, Brain, Wrench, Building, TrendingUp } from 'lucide-react';
+import React, { useState, useRef } from 'react';
+import { BookOpen, Target, Brain, Wrench, Building, TrendingUp, ChevronLeft, ChevronRight } from 'lucide-react';
 import reportData from '../data/report.json';
 
 export default function ReportSections() {
   const [activeTab, setActiveTab] = useState('contexto');
+  const scrollContainerRef = useRef(null);
   const { sections } = reportData;
 
   const tabs = [
@@ -23,8 +24,8 @@ export default function ReportSections() {
       tag: 'Paradigma Central'
     },
     {
-      title: 'Constructivismo Radical',
-      authors: 'Ernst von Glasersfeld / Epistemología',
+      title: 'Constructivismo Radical Radical',
+      authors: 'Epistemología & Paradigma',
       description: 'El conocimiento no se traslada pasivamente sino que es construido activamente por el sujeto. Las soluciones no son impuestas, sino co-creadas desde la propia experiencia territorial.',
       tag: 'Filosofía de Base'
     },
@@ -72,30 +73,69 @@ export default function ReportSections() {
     'Centro de Medio Ambiente y Energía de SOFOFA'
   ];
 
+  const scrollTabs = (direction) => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollBy({
+        left: direction === 'left' ? -220 : 220,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <section id="framework" className="mb-16 scroll-mt-24">
       <div className="bg-white rounded-xl border border-surface-variant shadow-sm overflow-hidden">
         
-        {/* Navigation Tabs Header */}
-        <div className="border-b border-surface-variant bg-surface-container-low p-2 flex overflow-x-auto gap-2">
-          {tabs.map((t) => {
-            const Icon = t.icon;
-            const isActive = activeTab === t.id;
-            return (
-              <button
-                key={t.id}
-                onClick={() => setActiveTab(t.id)}
-                className={`px-4 py-3 text-sm font-semibold rounded-lg transition-all flex items-center gap-2 whitespace-nowrap ${
-                  isActive
-                    ? 'bg-white text-primary shadow-sm border border-surface-variant/80'
-                    : 'text-secondary hover:text-on-surface hover:bg-white/50'
-                }`}
-              >
-                <Icon className={`w-4 h-4 ${isActive ? 'text-primary' : 'text-secondary'}`} />
-                <span>{t.label}</span>
-              </button>
-            );
-          })}
+        {/* Navigation Tabs Header with Left/Right Chevrons & Gradient Overflow Mask */}
+        <div className="relative border-b border-surface-variant bg-surface-container-low flex items-center">
+          
+          {/* Scroll Left Button */}
+          <button
+            onClick={() => scrollTabs('left')}
+            className="z-10 p-2.5 text-secondary hover:text-primary hover:bg-white/80 border-r border-surface-variant/60 transition-colors bg-surface-container-low shrink-0"
+            aria-label="Desplazar pestañas a la izquierda"
+          >
+            <ChevronLeft className="w-4 h-4" />
+          </button>
+
+          {/* Scrollable Container */}
+          <div
+            ref={scrollContainerRef}
+            className="flex-1 flex overflow-x-auto gap-2 p-2 scrollbar-none scroll-smooth relative"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          >
+            {tabs.map((t) => {
+              const Icon = t.icon;
+              const isActive = activeTab === t.id;
+              return (
+                <button
+                  key={t.id}
+                  onClick={() => setActiveTab(t.id)}
+                  className={`px-4 py-3 text-xs md:text-sm font-semibold rounded-lg transition-all flex items-center gap-2 whitespace-nowrap shrink-0 ${
+                    isActive
+                      ? 'bg-white text-primary shadow-sm border border-surface-variant/80 font-bold'
+                      : 'text-secondary hover:text-on-surface hover:bg-white/50'
+                  }`}
+                >
+                  <Icon className={`w-4 h-4 ${isActive ? 'text-primary' : 'text-secondary'}`} />
+                  <span>{t.label}</span>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Right Gradient Overflow Mask */}
+          <div className="absolute right-10 top-0 bottom-0 w-12 bg-gradient-to-l from-surface-container-low via-surface-container-low/70 to-transparent pointer-events-none z-10" />
+
+          {/* Scroll Right Button */}
+          <button
+            onClick={() => scrollTabs('right')}
+            className="z-10 p-2.5 text-secondary hover:text-primary hover:bg-white/80 border-l border-surface-variant/60 transition-colors bg-surface-container-low shrink-0"
+            aria-label="Desplazar pestañas a la derecha"
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
+
         </div>
 
         {/* Tab Contents */}
@@ -185,8 +225,8 @@ export default function ReportSections() {
                 </h3>
               </div>
               
-              <blockquote className="p-4 italic bg-surface-container-low border-l-2 border-primary text-secondary text-base">
-                "Los seres vivos somos sistemas determinados en nuestra estructura... existimos en el lenguaje." — Humberto Maturana
+              <blockquote className="p-4 italic bg-surface-container-low border-l-4 border-primary text-secondary font-serif text-lg shadow-xs rounded-r-lg">
+                "Sin Capital Social nada Florece" — Carlos Vignolo
               </blockquote>
 
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
