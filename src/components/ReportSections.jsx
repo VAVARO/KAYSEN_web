@@ -76,7 +76,7 @@ export default function ReportSections() {
   const scrollTabs = (direction) => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: direction === 'left' ? -220 : 220,
+        left: direction === 'left' ? -250 : 250,
         behavior: 'smooth'
       });
     }
@@ -86,16 +86,16 @@ export default function ReportSections() {
     <section id="framework" className="mb-16 scroll-mt-24">
       <div className="bg-white rounded-xl border border-surface-variant shadow-sm overflow-hidden">
         
-        {/* Navigation Tabs Header with Left/Right Chevrons & Gradient Overflow Mask */}
+        {/* Navigation Tabs Header with High-Contrast Left/Right Chevrons */}
         <div className="relative border-b border-surface-variant bg-surface-container-low flex items-center">
           
           {/* Scroll Left Button */}
           <button
             onClick={() => scrollTabs('left')}
-            className="z-10 p-2.5 text-secondary hover:text-primary hover:bg-white/80 border-r border-surface-variant/60 transition-colors bg-surface-container-low shrink-0"
+            className="z-20 p-2.5 text-primary hover:text-white hover:bg-primary border-r border-surface-variant transition-colors bg-white shadow-xs shrink-0 font-bold"
             aria-label="Desplazar pestañas a la izquierda"
           >
-            <ChevronLeft className="w-4 h-4" />
+            <ChevronLeft className="w-5 h-5 stroke-[2.5]" />
           </button>
 
           {/* Scrollable Container */}
@@ -130,10 +130,10 @@ export default function ReportSections() {
           {/* Scroll Right Button */}
           <button
             onClick={() => scrollTabs('right')}
-            className="z-10 p-2.5 text-secondary hover:text-primary hover:bg-white/80 border-l border-surface-variant/60 transition-colors bg-surface-container-low shrink-0"
+            className="z-20 p-2.5 text-primary hover:text-white hover:bg-primary border-l border-surface-variant transition-colors bg-white shadow-xs shrink-0 font-bold"
             aria-label="Desplazar pestañas a la derecha"
           >
-            <ChevronRight className="w-4 h-4" />
+            <ChevronRight className="w-5 h-5 stroke-[2.5]" />
           </button>
 
         </div>

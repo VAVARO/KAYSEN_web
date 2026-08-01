@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Menu, X, Search, BookOpen, BarChart2, MessageSquare, Users, Award, ChevronRight } from 'lucide-react';
+import pisctLogo from '../assets/pisct.png';
 import activitiesData from '../data/activities.json';
 import quotesData from '../data/quotes.json';
 import actorsData from '../data/actors.json';
@@ -97,10 +98,9 @@ export default function Header({ activeTab, setActiveTab, onSelectSearchResult }
           className="flex items-center gap-2 md:gap-3 cursor-pointer select-none shrink-0"
         >
           <img 
-            src="./logo.png" 
-            alt="KAYSEN Logo" 
+            src={pisctLogo} 
+            alt="PISCT KAYSEN Logo" 
             className="h-8 md:h-9 w-auto object-contain rounded"
-            onError={(e) => { e.target.style.display = 'none'; }}
           />
           <div className="shrink-0">
             <div className="flex items-center gap-1.5">

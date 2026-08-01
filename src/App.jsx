@@ -7,6 +7,7 @@ import QuoteLibrary from './components/QuoteLibrary';
 import ActorsProjectsMatrix from './components/ActorsProjectsMatrix';
 import LogrosQuiebresFuturo from './components/LogrosQuiebresFuturo';
 import AnnexesSection from './components/AnnexesSection';
+import pisctLogo from './assets/pisct.png';
 import { MapPin } from 'lucide-react';
 
 export default function App() {
@@ -101,10 +102,9 @@ export default function App() {
         <div className="max-w-container-max mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <img 
-              src="./logo.png" 
-              alt="KAYSEN Logo" 
+              src={pisctLogo} 
+              alt="PISCT KAYSEN Logo" 
               className="h-8 w-auto object-contain rounded"
-              onError={(e) => { e.target.style.display = 'none'; }}
             />
             <div>
               <p className="font-serif font-bold text-sm text-primary">Proyecto KAYSEN — Fase 1</p>
