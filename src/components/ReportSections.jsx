@@ -86,16 +86,17 @@ export default function ReportSections() {
     <section id="framework" className="mb-16 scroll-mt-24">
       <div className="bg-white rounded-xl border border-surface-variant shadow-sm overflow-hidden">
         
-        {/* Navigation Tabs Header with High-Contrast Left/Right Chevrons */}
+        {/* Navigation Tabs Header with Left/Right Chevrons */}
         <div className="relative border-b border-surface-variant bg-surface-container-low flex items-center">
           
           {/* Scroll Left Button */}
           <button
             onClick={() => scrollTabs('left')}
-            className="z-20 p-2.5 text-primary hover:text-white hover:bg-primary border-r border-surface-variant transition-colors bg-white shadow-xs shrink-0 font-bold"
+            className="z-20 px-3 py-2.5 text-primary hover:text-white hover:bg-primary border-r border-surface-variant transition-colors bg-white shadow-xs shrink-0 font-bold flex items-center justify-center gap-1 cursor-pointer select-none"
             aria-label="Desplazar pestañas a la izquierda"
           >
             <ChevronLeft className="w-5 h-5 stroke-[2.5]" />
+            <span className="font-bold text-sm hidden sm:inline">&lt;</span>
           </button>
 
           {/* Scrollable Container */}
@@ -130,9 +131,10 @@ export default function ReportSections() {
           {/* Scroll Right Button */}
           <button
             onClick={() => scrollTabs('right')}
-            className="z-20 p-2.5 text-primary hover:text-white hover:bg-primary border-l border-surface-variant transition-colors bg-white shadow-xs shrink-0 font-bold"
+            className="z-20 px-3 py-2.5 text-primary hover:text-white hover:bg-primary border-l border-surface-variant transition-colors bg-white shadow-xs shrink-0 font-bold flex items-center justify-center gap-1 cursor-pointer select-none"
             aria-label="Desplazar pestañas a la derecha"
           >
+            <span className="font-bold text-sm hidden sm:inline">&gt;</span>
             <ChevronRight className="w-5 h-5 stroke-[2.5]" />
           </button>
 
