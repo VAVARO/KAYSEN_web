@@ -97,14 +97,14 @@ export default function App() {
 
       </main>
 
-      {/* Footer */}
+      {/* Footer (Increased logo display height to h-12 md:h-14) */}
       <footer className="bg-white border-t border-surface-variant py-8 px-4 md:px-8 mt-auto">
         <div className="max-w-container-max mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
             <img 
               src={pisctLogo} 
               alt="PISCT KAYSEN Logo" 
-              className="h-8 w-auto object-contain rounded"
+              className="h-12 md:h-14 max-h-14 w-auto object-contain rounded"
             />
             <div>
               <p className="font-serif font-bold text-sm text-primary">Proyecto KAYSEN — Fase 1</p>

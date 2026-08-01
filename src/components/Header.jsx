@@ -92,7 +92,7 @@ export default function Header({ activeTab, setActiveTab, onSelectSearchResult }
     <header className="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-surface-variant shadow-sm transition-all">
       <div className="w-full max-w-[1400px] mx-auto px-3 sm:px-4 md:px-6 h-20 flex items-center justify-between gap-2 md:gap-4">
         
-        {/* BRAND & LOGO */}
+        {/* BRAND & LOGO (Increased to h-12 md:h-14) */}
         <div 
           onClick={() => setActiveTab('dashboard')}
           className="flex items-center gap-2 md:gap-3 cursor-pointer select-none shrink-0"
@@ -100,7 +100,7 @@ export default function Header({ activeTab, setActiveTab, onSelectSearchResult }
           <img 
             src={pisctLogo} 
             alt="PISCT KAYSEN Logo" 
-            className="h-8 md:h-9 w-auto object-contain rounded"
+            className="h-12 md:h-14 max-h-14 w-auto object-contain rounded"
           />
           <div className="shrink-0">
             <div className="flex items-center gap-1.5">
