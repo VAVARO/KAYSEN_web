@@ -1,0 +1,1829 @@
+[
+  {
+    "id": "taller-juego-de-los-negocios",
+    "name": "Taller Juego de los Negocios",
+    "date": "17 de abril de 2026",
+    "year": 2026,
+    "sector": "Sector Privado / Comunidad",
+    "nEvaluations": 40,
+    "generalScore": "N/A",
+    "benefitScore": "6.17",
+    "constructorScore": "6.08",
+    "moods": [
+      {
+        "mood": "Tranquilidad",
+        "count": 16,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 14,
+        "percentage": "11.67%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 12,
+        "percentage": "10%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 12,
+        "percentage": "10%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 11,
+        "percentage": "9.17%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 9,
+        "percentage": "7.5%"
+      },
+      {
+        "mood": "Paz",
+        "count": 9,
+        "percentage": "7.5%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 9,
+        "percentage": "7.5%"
+      },
+      {
+        "mood": "Interés",
+        "count": 7,
+        "percentage": "5.83%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 5,
+        "percentage": "4.17%"
+      },
+      {
+        "mood": "Determinación",
+        "count": 3,
+        "percentage": "2.5%"
+      },
+      {
+        "mood": "Escepticismo",
+        "count": 2,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Confusión",
+        "count": 2,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Intranquilidad",
+        "count": 2,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 2,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Impaciencia",
+        "count": 1,
+        "percentage": "0.83%"
+      },
+      {
+        "mood": "Resignación",
+        "count": 1,
+        "percentage": "0.83%"
+      },
+      {
+        "mood": "Desinterés",
+        "count": 1,
+        "percentage": "0.83%"
+      },
+      {
+        "mood": "Prudencia",
+        "count": 1,
+        "percentage": "0.83%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 1,
+        "percentage": "0.83%"
+      }
+    ]
+  },
+  {
+    "id": "taller-gendarmer-a-15-oct-2025-",
+    "name": "Taller Gendarmería (15 Oct 2025\\)",
+    "date": "15 de octubre de 2025",
+    "year": 2025,
+    "sector": "Sector Público",
+    "nEvaluations": 15,
+    "generalScore": "6.53",
+    "benefitScore": "6.60",
+    "constructorScore": "6.00",
+    "moods": [
+      {
+        "mood": "Entusiasmo",
+        "count": 7,
+        "percentage": "15.56%"
+      },
+      {
+        "mood": "Interés",
+        "count": 6,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 6,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 5,
+        "percentage": "11.11%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 5,
+        "percentage": "11.11%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 4,
+        "percentage": "8.89%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 2,
+        "percentage": "4.44%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 2,
+        "percentage": "4.44%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 1,
+        "percentage": "2.22%"
+      },
+      {
+        "mood": "Desinterés",
+        "count": 1,
+        "percentage": "2.22%"
+      },
+      {
+        "mood": "Escepticismo",
+        "count": 1,
+        "percentage": "2.22%"
+      },
+      {
+        "mood": "Intranquilidad",
+        "count": 1,
+        "percentage": "2.22%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 1,
+        "percentage": "2.22%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 1,
+        "percentage": "2.22%"
+      },
+      {
+        "mood": "Prudencia",
+        "count": 1,
+        "percentage": "2.22%"
+      },
+      {
+        "mood": "Determinación",
+        "count": 1,
+        "percentage": "2.22%"
+      }
+    ]
+  },
+  {
+    "id": "taller-gendarmer-a-18-nov-2024-",
+    "name": "Taller Gendarmería (18 Nov 2024\\)",
+    "date": "18 de noviembre de 2024",
+    "year": 2024,
+    "sector": "Sector Público",
+    "nEvaluations": 20,
+    "generalScore": "6.90",
+    "benefitScore": "6.90",
+    "constructorScore": "6.40",
+    "moods": [
+      {
+        "mood": "Entusiasmo",
+        "count": 12,
+        "percentage": "20%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 11,
+        "percentage": "18.33%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 9,
+        "percentage": "15%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 6,
+        "percentage": "10%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 5,
+        "percentage": "8.33%"
+      },
+      {
+        "mood": "Interés",
+        "count": 4,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 4,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Determinación",
+        "count": 2,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 1,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 1,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Prudencia",
+        "count": 1,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 1,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Ambición",
+        "count": 1,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 1,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 1,
+        "percentage": "1.67%"
+      }
+    ]
+  },
+  {
+    "id": "taller-pace",
+    "name": "Taller PACE",
+    "date": "25 de junio de 2026",
+    "year": 2026,
+    "sector": "Sociedad Civil / Academia",
+    "nEvaluations": 13,
+    "generalScore": "N/A",
+    "benefitScore": "6.54",
+    "constructorScore": "6.00",
+    "moods": [
+      {
+        "mood": "Interés",
+        "count": 7,
+        "percentage": "17.95%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 5,
+        "percentage": "12.82%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 4,
+        "percentage": "10.26%"
+      },
+      {
+        "mood": "Ambición",
+        "count": 3,
+        "percentage": "7.69%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 3,
+        "percentage": "7.69%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 3,
+        "percentage": "7.69%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 3,
+        "percentage": "7.69%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 3,
+        "percentage": "7.69%"
+      },
+      {
+        "mood": "Confusión",
+        "count": 2,
+        "percentage": "5.13%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 2,
+        "percentage": "5.13%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 2,
+        "percentage": "5.13%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 1,
+        "percentage": "2.56%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 1,
+        "percentage": "2.56%"
+      }
+    ]
+  },
+  {
+    "id": "taller-hospital-regional-coyhaique-hrc-",
+    "name": "Taller Hospital Regional Coyhaique (HRC)",
+    "date": "4 de diciembre de 2025",
+    "year": 2025,
+    "sector": "Sector Público",
+    "nEvaluations": 25,
+    "generalScore": "N/A",
+    "benefitScore": "6.72",
+    "constructorScore": "6.60",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 14,
+        "percentage": "18.67%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 10,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Interés",
+        "count": 7,
+        "percentage": "9.33%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 7,
+        "percentage": "9.33%"
+      },
+      {
+        "mood": "Determinación",
+        "count": 7,
+        "percentage": "9.33%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 7,
+        "percentage": "9.33%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 5,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 3,
+        "percentage": "4%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 3,
+        "percentage": "4%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 3,
+        "percentage": "4%"
+      },
+      {
+        "mood": "Colaboración",
+        "count": 2,
+        "percentage": "2.67%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 2,
+        "percentage": "2.67%"
+      },
+      {
+        "mood": "Paz",
+        "count": 1,
+        "percentage": "1.33%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 1,
+        "percentage": "1.33%"
+      },
+      {
+        "mood": "Ambición",
+        "count": 1,
+        "percentage": "1.33%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 1,
+        "percentage": "1.33%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 1,
+        "percentage": "1.33%"
+      }
+    ]
+  },
+  {
+    "id": "evaluaci-n-viaje-avanzada",
+    "name": "Evaluación Viaje Avanzada",
+    "date": "Marzo de 2023 (Cierre de experiencia en Aysén)",
+    "year": 2023,
+    "sector": "Sector Privado / Comunidad",
+    "nEvaluations": 7,
+    "generalScore": "N/A",
+    "benefitScore": "6.62",
+    "constructorScore": "N/A",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 2,
+        "percentage": "25%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "mood": "Nostalgia",
+        "count": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "mood": "Motivación",
+        "count": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "mood": "Plenitud",
+        "count": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 1,
+        "percentage": "12.5%"
+      }
+    ]
+  },
+  {
+    "id": "charla-emprender-e-innovar-cft-de-ays-n-",
+    "name": "Charla Emprender e Innovar (CFT de Aysén)",
+    "date": "25 de mayo de 2022",
+    "year": 2022,
+    "sector": "Sociedad Civil / Academia",
+    "nEvaluations": 8,
+    "generalScore": "N/A",
+    "benefitScore": "6.50",
+    "constructorScore": "N/A",
+    "moods": [
+      {
+        "mood": "Entusiasmo",
+        "count": 4,
+        "percentage": "16.67%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 4,
+        "percentage": "16.67%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 4,
+        "percentage": "16.67%"
+      },
+      {
+        "mood": "Determinación",
+        "count": 2,
+        "percentage": "8.33%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 2,
+        "percentage": "8.33%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 2,
+        "percentage": "8.33%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 1,
+        "percentage": "4.17%"
+      },
+      {
+        "mood": "Interés",
+        "count": 1,
+        "percentage": "4.17%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 1,
+        "percentage": "4.17%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 1,
+        "percentage": "4.17%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 1,
+        "percentage": "4.17%"
+      },
+      {
+        "mood": "Intranquilidad",
+        "count": 1,
+        "percentage": "4.17%"
+      }
+    ]
+  },
+  {
+    "id": "cena-taller",
+    "name": "Cena Taller",
+    "date": "13 de octubre de 2025",
+    "year": 2025,
+    "sector": "Sector Privado / Comunidad",
+    "nEvaluations": 17,
+    "generalScore": "6.47",
+    "benefitScore": "6.18",
+    "constructorScore": "N/A",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 12,
+        "percentage": "23.53%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 5,
+        "percentage": "9.8%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 5,
+        "percentage": "9.8%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 5,
+        "percentage": "9.8%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 4,
+        "percentage": "7.84%"
+      },
+      {
+        "mood": "Colaboración",
+        "count": 4,
+        "percentage": "7.84%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 4,
+        "percentage": "7.84%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 2,
+        "percentage": "3.92%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 2,
+        "percentage": "3.92%"
+      },
+      {
+        "mood": "Interés",
+        "count": 2,
+        "percentage": "3.92%"
+      },
+      {
+        "mood": "Prudencia",
+        "count": 1,
+        "percentage": "1.96%"
+      },
+      {
+        "mood": "Pasión",
+        "count": 1,
+        "percentage": "1.96%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 1,
+        "percentage": "1.96%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 1,
+        "percentage": "1.96%"
+      },
+      {
+        "mood": "Paz",
+        "count": 1,
+        "percentage": "1.96%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 1,
+        "percentage": "1.96%"
+      }
+    ]
+  },
+  {
+    "id": "taller-cet",
+    "name": "Taller CET",
+    "date": "16 de noviembre de 2023",
+    "year": 2023,
+    "sector": "Otro",
+    "nEvaluations": 5,
+    "generalScore": "N/A",
+    "benefitScore": "6.60",
+    "constructorScore": "6.40",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 5,
+        "percentage": "33.33%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 3,
+        "percentage": "20%"
+      },
+      {
+        "mood": "Interés",
+        "count": 2,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 2,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 1,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 1,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 1,
+        "percentage": "6.67%"
+      }
+    ]
+  },
+  {
+    "id": "taller-ciep",
+    "name": "Taller CIEP",
+    "date": "26 de junio de 2026",
+    "year": 2026,
+    "sector": "Sociedad Civil / Academia",
+    "nEvaluations": 10,
+    "generalScore": "N/A",
+    "benefitScore": "5.30",
+    "constructorScore": "5.10",
+    "moods": [
+      {
+        "mood": "Expectación",
+        "count": 6,
+        "percentage": "20%"
+      },
+      {
+        "mood": "Interés",
+        "count": 4,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 3,
+        "percentage": "10%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 3,
+        "percentage": "10%"
+      },
+      {
+        "mood": "Impaciencia",
+        "count": 3,
+        "percentage": "10%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 3,
+        "percentage": "10%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 2,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 2,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 1,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 1,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 1,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Desinterés",
+        "count": 1,
+        "percentage": "3.33%"
+      }
+    ]
+  },
+  {
+    "id": "1er-taller-municipalidad-de-ays-n",
+    "name": "1er Taller Municipalidad de Aysén",
+    "date": "1 de julio de 2022",
+    "year": 2022,
+    "sector": "Sector Público",
+    "nEvaluations": 40,
+    "generalScore": "N/A",
+    "benefitScore": "6.20",
+    "constructorScore": "5.90",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 27,
+        "percentage": "22.5%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 16,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 12,
+        "percentage": "10%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 9,
+        "percentage": "7.5%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 7,
+        "percentage": "5.83%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 7,
+        "percentage": "5.83%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 6,
+        "percentage": "5%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 6,
+        "percentage": "5%"
+      },
+      {
+        "mood": "Interés",
+        "count": 4,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 4,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 3,
+        "percentage": "2.5%"
+      },
+      {
+        "mood": "Ambición",
+        "count": 3,
+        "percentage": "2.5%"
+      },
+      {
+        "mood": "Pasión",
+        "count": 3,
+        "percentage": "2.5%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 3,
+        "percentage": "2.5%"
+      },
+      {
+        "mood": "Prudencia",
+        "count": 2,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Colaboración",
+        "count": 2,
+        "percentage": "1.67%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 1,
+        "percentage": "0.83%"
+      },
+      {
+        "mood": "Abierta a seguir aprendiendo e indagando por mi cuenta",
+        "count": 1,
+        "percentage": "0.83%"
+      },
+      {
+        "mood": "Enamorada de mis sueños",
+        "count": 1,
+        "percentage": "0.83%"
+      },
+      {
+        "mood": "Enojo",
+        "count": 1,
+        "percentage": "0.83%"
+      },
+      {
+        "mood": "Escepticismo",
+        "count": 1,
+        "percentage": "0.83%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 1,
+        "percentage": "0.83%"
+      }
+    ]
+  },
+  {
+    "id": "2do-taller-cesfam",
+    "name": "2do Taller CESFAM",
+    "date": "5 de agosto de 2022",
+    "year": 2022,
+    "sector": "Sector Público",
+    "nEvaluations": 28,
+    "generalScore": "6.04",
+    "benefitScore": "5.82",
+    "constructorScore": "5.43",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 11,
+        "percentage": "12.79%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 10,
+        "percentage": "11.63%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 8,
+        "percentage": "9.3%"
+      },
+      {
+        "mood": "Interés",
+        "count": 6,
+        "percentage": "6.98%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 5,
+        "percentage": "5.81%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 5,
+        "percentage": "5.81%"
+      },
+      {
+        "mood": "Ambición",
+        "count": 5,
+        "percentage": "5.81%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 4,
+        "percentage": "4.65%"
+      },
+      {
+        "mood": "Colaboración",
+        "count": 3,
+        "percentage": "3.49%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 3,
+        "percentage": "3.49%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 3,
+        "percentage": "3.49%"
+      },
+      {
+        "mood": "Impaciencia",
+        "count": 2,
+        "percentage": "2.33%"
+      },
+      {
+        "mood": "Resignación",
+        "count": 2,
+        "percentage": "2.33%"
+      },
+      {
+        "mood": "Escepticismo",
+        "count": 2,
+        "percentage": "2.33%"
+      },
+      {
+        "mood": "Prudencia",
+        "count": 2,
+        "percentage": "2.33%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 2,
+        "percentage": "2.33%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 2,
+        "percentage": "2.33%"
+      },
+      {
+        "mood": "Intranquilidad",
+        "count": 2,
+        "percentage": "2.33%"
+      },
+      {
+        "mood": "Determinación",
+        "count": 2,
+        "percentage": "2.33%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 2,
+        "percentage": "2.33%"
+      },
+      {
+        "mood": "Paz",
+        "count": 1,
+        "percentage": "1.16%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 1,
+        "percentage": "1.16%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 1,
+        "percentage": "1.16%"
+      }
+    ]
+  },
+  {
+    "id": "2do-taller-municipalidad-de-ays-n",
+    "name": "2do Taller Municipalidad de Aysén",
+    "date": "29 de julio de 2022",
+    "year": 2022,
+    "sector": "Sector Público",
+    "nEvaluations": 38,
+    "generalScore": "6.11",
+    "benefitScore": "6.08",
+    "constructorScore": "5.63",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 19,
+        "percentage": "16.67%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 11,
+        "percentage": "9.65%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 10,
+        "percentage": "8.77%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 9,
+        "percentage": "7.89%"
+      },
+      {
+        "mood": "Interés",
+        "count": 8,
+        "percentage": "7.02%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 7,
+        "percentage": "6.14%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 7,
+        "percentage": "6.14%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 6,
+        "percentage": "5.26%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 6,
+        "percentage": "5.26%"
+      },
+      {
+        "mood": "Colaboración",
+        "count": 6,
+        "percentage": "5.26%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 5,
+        "percentage": "4.39%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 4,
+        "percentage": "3.51%"
+      },
+      {
+        "mood": "Escepticismo",
+        "count": 3,
+        "percentage": "2.63%"
+      },
+      {
+        "mood": "Prudencia",
+        "count": 3,
+        "percentage": "2.63%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 3,
+        "percentage": "2.63%"
+      },
+      {
+        "mood": "Paz",
+        "count": 2,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Confusión",
+        "count": 2,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Enojo",
+        "count": 1,
+        "percentage": "0.88%"
+      },
+      {
+        "mood": "Incertidumbre",
+        "count": 1,
+        "percentage": "0.88%"
+      },
+      {
+        "mood": "Determinación",
+        "count": 1,
+        "percentage": "0.88%"
+      }
+    ]
+  },
+  {
+    "id": "3er-taller-cesfam",
+    "name": "3er Taller CESFAM",
+    "date": "27 de agosto de 2025",
+    "year": 2025,
+    "sector": "Sector Público",
+    "nEvaluations": 38,
+    "generalScore": "6.66",
+    "benefitScore": "6.58",
+    "constructorScore": "6.42",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 20,
+        "percentage": "17.54%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 11,
+        "percentage": "9.65%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 9,
+        "percentage": "7.89%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 8,
+        "percentage": "7.02%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 7,
+        "percentage": "6.14%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 7,
+        "percentage": "6.14%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 7,
+        "percentage": "6.14%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 6,
+        "percentage": "5.26%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 6,
+        "percentage": "5.26%"
+      },
+      {
+        "mood": "Colaboración",
+        "count": 5,
+        "percentage": "4.39%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 5,
+        "percentage": "4.39%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 5,
+        "percentage": "4.39%"
+      },
+      {
+        "mood": "Interés",
+        "count": 4,
+        "percentage": "3.51%"
+      },
+      {
+        "mood": "Escepticismo",
+        "count": 3,
+        "percentage": "2.63%"
+      },
+      {
+        "mood": "Determinación",
+        "count": 3,
+        "percentage": "2.63%"
+      },
+      {
+        "mood": "Paz",
+        "count": 2,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 2,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Prudencia",
+        "count": 1,
+        "percentage": "0.88%"
+      },
+      {
+        "mood": "Pasión",
+        "count": 1,
+        "percentage": "0.88%"
+      },
+      {
+        "mood": "Desconfianza",
+        "count": 1,
+        "percentage": "0.88%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 1,
+        "percentage": "0.88%"
+      }
+    ]
+  },
+  {
+    "id": "taller-dirigentes-sociales-islas-huichas",
+    "name": "Taller Dirigentes Sociales Islas Huichas",
+    "date": "26 de septiembre de 2022",
+    "year": 2022,
+    "sector": "Sociedad Civil / Academia",
+    "nEvaluations": 10,
+    "generalScore": "6.50",
+    "benefitScore": "N/A",
+    "constructorScore": "N/A",
+    "moods": [
+      {
+        "mood": "Confianza",
+        "count": 4,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 4,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 4,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 4,
+        "percentage": "13.33%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 3,
+        "percentage": "10%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 2,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Interés",
+        "count": 2,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 2,
+        "percentage": "6.67%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 1,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 1,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Impaciencia",
+        "count": 1,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 1,
+        "percentage": "3.33%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 1,
+        "percentage": "3.33%"
+      }
+    ]
+  },
+  {
+    "id": "1era-charla-servicio-de-salud-ays-n-ssa-",
+    "name": "1era Charla Servicio de Salud Aysén (SSA)",
+    "date": "21 de enero de 2025",
+    "year": 2025,
+    "sector": "Sector Público",
+    "nEvaluations": 19,
+    "generalScore": "N/A",
+    "benefitScore": "6.63",
+    "constructorScore": "6.37",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 12,
+        "percentage": "21.05%"
+      },
+      {
+        "mood": "Interés",
+        "count": 6,
+        "percentage": "10.53%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 5,
+        "percentage": "8.77%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 4,
+        "percentage": "7.02%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 4,
+        "percentage": "7.02%"
+      },
+      {
+        "mood": "Colaboración",
+        "count": 4,
+        "percentage": "7.02%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 3,
+        "percentage": "5.26%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 3,
+        "percentage": "5.26%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 2,
+        "percentage": "3.51%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 2,
+        "percentage": "3.51%"
+      },
+      {
+        "mood": "Intranquilidad",
+        "count": 2,
+        "percentage": "3.51%"
+      },
+      {
+        "mood": "Pasión",
+        "count": 1,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Paz",
+        "count": 1,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 1,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Determinación",
+        "count": 1,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Prudencia",
+        "count": 1,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 1,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 1,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 1,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 1,
+        "percentage": "1.75%"
+      },
+      {
+        "mood": "Reflexión",
+        "count": 1,
+        "percentage": "1.75%"
+      }
+    ]
+  },
+  {
+    "id": "2da-charla-servicio-de-salud-ays-n-ssa-",
+    "name": "2da Charla Servicio de Salud Aysén (SSA)",
+    "date": "24 de enero de 2025",
+    "year": 2025,
+    "sector": "Sector Público",
+    "nEvaluations": 11,
+    "generalScore": "N/A",
+    "benefitScore": "6.73",
+    "constructorScore": "6.18",
+    "moods": [
+      {
+        "mood": "Aceptación",
+        "count": 5,
+        "percentage": "15.15%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 5,
+        "percentage": "15.15%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 5,
+        "percentage": "15.15%"
+      },
+      {
+        "mood": "Interés",
+        "count": 4,
+        "percentage": "12.12%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 3,
+        "percentage": "9.09%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 3,
+        "percentage": "9.09%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 3,
+        "percentage": "9.09%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 2,
+        "percentage": "6.06%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 1,
+        "percentage": "3.03%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 1,
+        "percentage": "3.03%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 1,
+        "percentage": "3.03%"
+      }
+    ]
+  },
+  {
+    "id": "charla-funcionarios-hospital-regional-coyhaique-hrc-",
+    "name": "Charla Funcionarios Hospital Regional Coyhaique (HRC)",
+    "date": "13 de junio de 2025",
+    "year": 2025,
+    "sector": "Sector Público",
+    "nEvaluations": 12,
+    "generalScore": "N/A",
+    "benefitScore": "6.83",
+    "constructorScore": "6.17",
+    "moods": [
+      {
+        "mood": "Agradecimiento",
+        "count": 9,
+        "percentage": "25%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 8,
+        "percentage": "22.22%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 3,
+        "percentage": "8.33%"
+      },
+      {
+        "mood": "Interés",
+        "count": 3,
+        "percentage": "8.33%"
+      },
+      {
+        "mood": "Paz",
+        "count": 2,
+        "percentage": "5.56%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 2,
+        "percentage": "5.56%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 2,
+        "percentage": "5.56%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 2,
+        "percentage": "5.56%"
+      },
+      {
+        "mood": "Pasión",
+        "count": 1,
+        "percentage": "2.78%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 1,
+        "percentage": "2.78%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 1,
+        "percentage": "2.78%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 1,
+        "percentage": "2.78%"
+      },
+      {
+        "mood": "Colaboración",
+        "count": 1,
+        "percentage": "2.78%"
+      }
+    ]
+  },
+  {
+    "id": "sesi-n-liceo-islas-huichas",
+    "name": "Sesión Liceo Islas Huichas",
+    "date": "3 de mayo de 2023",
+    "year": 2023,
+    "sector": "Sociedad Civil / Academia",
+    "nEvaluations": 14,
+    "generalScore": "N/A",
+    "benefitScore": "N/A",
+    "constructorScore": "5.64",
+    "moods": [
+      {
+        "mood": "Entusiasmo",
+        "count": 7,
+        "percentage": "16.67%"
+      },
+      {
+        "mood": "Interés",
+        "count": 5,
+        "percentage": "11.9%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 4,
+        "percentage": "9.52%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 3,
+        "percentage": "7.14%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 3,
+        "percentage": "7.14%"
+      },
+      {
+        "mood": "Paz",
+        "count": 3,
+        "percentage": "7.14%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 3,
+        "percentage": "7.14%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 3,
+        "percentage": "7.14%"
+      },
+      {
+        "mood": "Confusión",
+        "count": 2,
+        "percentage": "4.76%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 2,
+        "percentage": "4.76%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 2,
+        "percentage": "4.76%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 2,
+        "percentage": "4.76%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 1,
+        "percentage": "2.38%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 1,
+        "percentage": "2.38%"
+      },
+      {
+        "mood": "Intranquilidad",
+        "count": 1,
+        "percentage": "2.38%"
+      }
+    ]
+  },
+  {
+    "id": "charla-taller-gore-ays-n",
+    "name": "Charla/Taller GORE Aysén",
+    "date": "10 de junio de 2025",
+    "year": 2025,
+    "sector": "Sector Público",
+    "nEvaluations": 8,
+    "generalScore": "6.63",
+    "benefitScore": "6.50",
+    "constructorScore": "5.88",
+    "moods": []
+  },
+  {
+    "id": "1er-taller-cesfam-puerto-ays-n",
+    "name": "1er Taller CESFAM Puerto Aysén",
+    "date": "24 de junio de 2022",
+    "year": 2022,
+    "sector": "Sector Público",
+    "nEvaluations": 21,
+    "generalScore": "6.71",
+    "benefitScore": "N/A",
+    "constructorScore": "N/A",
+    "moods": [
+      {
+        "mood": "Interés",
+        "count": 10,
+        "percentage": "15.87%"
+      },
+      {
+        "mood": "Entusiasmo",
+        "count": 9,
+        "percentage": "14.29%"
+      },
+      {
+        "mood": "Esperanza",
+        "count": 5,
+        "percentage": "7.94%"
+      },
+      {
+        "mood": "Satisfacción",
+        "count": 5,
+        "percentage": "7.94%"
+      },
+      {
+        "mood": "Agradecimiento",
+        "count": 4,
+        "percentage": "6.35%"
+      },
+      {
+        "mood": "Inquietud",
+        "count": 4,
+        "percentage": "6.35%"
+      },
+      {
+        "mood": "Tranquilidad",
+        "count": 4,
+        "percentage": "6.35%"
+      },
+      {
+        "mood": "Aceptación",
+        "count": 3,
+        "percentage": "4.76%"
+      },
+      {
+        "mood": "Alegría",
+        "count": 3,
+        "percentage": "4.76%"
+      },
+      {
+        "mood": "Ansiedad",
+        "count": 3,
+        "percentage": "4.76%"
+      },
+      {
+        "mood": "Confianza",
+        "count": 3,
+        "percentage": "4.76%"
+      },
+      {
+        "mood": "Optimismo",
+        "count": 3,
+        "percentage": "4.76%"
+      },
+      {
+        "mood": "Ambición",
+        "count": 2,
+        "percentage": "3.17%"
+      },
+      {
+        "mood": "Curiosidad",
+        "count": 2,
+        "percentage": "3.17%"
+      },
+      {
+        "mood": "Escepticismo",
+        "count": 1,
+        "percentage": "1.59%"
+      },
+      {
+        "mood": "Expectación",
+        "count": 1,
+        "percentage": "1.59%"
+      },
+      {
+        "mood": "Impaciencia",
+        "count": 1,
+        "percentage": "1.59%"
+      }
+    ]
+  }
+]

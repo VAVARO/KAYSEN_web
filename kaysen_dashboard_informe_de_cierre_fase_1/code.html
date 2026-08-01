@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KAYSEN: Informe de Cierre Fase 1</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts: EB Garamond (Serif) & Libre Franklin (Sans) -->
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Libre+Franklin:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Theme Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-variant": "#e1e3e4",
+                    "surface-container-low": "#f3f4f5",
+                    "on-error": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "background": "#f8f9fa",
+                    "surface-dim": "#d9dadb",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#410000",
+                    "surface": "#f8f9fa",
+                    "error": "#ba1a1a",
+                    "on-tertiary": "#ffffff",
+                    "surface-tint": "#b4281a",
+                    "on-secondary-fixed-variant": "#3e4851",
+                    "secondary-fixed-dim": "#bdc8d3",
+                    "on-primary-fixed-variant": "#910a04",
+                    "on-tertiary-fixed-variant": "#424751",
+                    "tertiary-fixed-dim": "#c2c6d3",
+                    "on-tertiary-container": "#ecf0fd",
+                    "secondary-fixed": "#d9e4ef",
+                    "surface-container-high": "#e7e8e9",
+                    "secondary-container": "#d7e1ec",
+                    "on-secondary-container": "#5a646e",
+                    "inverse-on-surface": "#f0f1f2",
+                    "outline": "#8e706b",
+                    "primary-fixed-dim": "#ffb4a8",
+                    "inverse-primary": "#ffb4a8",
+                    "on-secondary-fixed": "#131d25",
+                    "tertiary-container": "#686d78",
+                    "surface-container": "#edeeef",
+                    "on-secondary": "#ffffff",
+                    "primary-container": "#c83727",
+                    "primary-fixed": "#ffdad4",
+                    "on-primary": "#ffffff",
+                    "surface-bright": "#f8f9fa",
+                    "on-surface": "#191c1d",
+                    "on-tertiary-fixed": "#171c25",
+                    "on-primary-container": "#ffebe8",
+                    "outline-variant": "#e2beb9",
+                    "inverse-surface": "#2e3132",
+                    "surface-container-highest": "#e1e3e4",
+                    "secondary": "#555f69",
+                    "primary": "#a51d11",
+                    "tertiary": "#505560",
+                    "on-surface-variant": "#5a413c",
+                    "on-error-container": "#93000a",
+                    "tertiary-fixed": "#dee2f0",
+                    "on-background": "#191c1d"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-desktop": "40px",
+                    "unit": "8px",
+                    "gutter": "24px",
+                    "container-max": "1200px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "body-lg": ["Libre Franklin"],
+                    "headline-lg-mobile": ["EB Garamond"],
+                    "label-md": ["Libre Franklin"],
+                    "headline-lg": ["EB Garamond"],
+                    "display-lg": ["EB Garamond"],
+                    "headline-md": ["EB Garamond"],
+                    "body-md": ["Libre Franklin"],
+                    "caption": ["Libre Franklin"]
+            },
+            "fontSize": {
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "34px", "fontWeight": "500"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "500"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "caption": ["12px", {"lineHeight": "16px", "fontWeight": "400"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { background-color: #f8f9fa; font-family: 'Libre Franklin', sans-serif; }
+        .serif-title { font-family: 'EB Garamond', serif; }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .active-tab {
+            border-bottom: 2px solid #a51d11;
+            color: #a51d11;
+        }
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-desktop h-16 bg-surface border-b border-surface-variant">
+<div class="flex items-center gap-unit">
+<span class="font-headline-md text-headline-md font-bold text-primary">Proyecto KAYSEN</span>
+</div>
+<div class="hidden lg:flex items-center gap-8">
+<a class="text-label-md font-label-md text-primary border-b-2 border-primary pb-1" href="#">Dashboard</a>
+<a class="text-label-md font-label-md text-secondary hover:text-primary transition-colors" href="#">Executive Summary</a>
+<a class="text-label-md font-label-md text-secondary hover:text-primary transition-colors" href="#">Framework</a>
+<a class="text-label-md font-label-md text-secondary hover:text-primary transition-colors" href="#">Activity Explorer</a>
+<a class="text-label-md font-label-md text-secondary hover:text-primary transition-colors" href="#">Quote Library</a>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary cursor-pointer hover:text-primary">notifications</span>
+<span class="material-symbols-outlined text-secondary cursor-pointer hover:text-primary">account_circle</span>
+</div>
+</nav>
+<!-- Sidebar (Visible on Desktop) -->
+<aside class="hidden lg:flex flex-col fixed left-0 top-16 h-[calc(100vh-64px)] w-64 bg-surface-container-low border-r border-surface-variant z-40 p-6">
+<div class="mb-8">
+<h2 class="font-headline-md text-headline-md text-primary serif-title">KAYSEN</h2>
+<p class="font-body-md text-body-md text-secondary">Institutional Intelligence</p>
+</div>
+<nav class="space-y-4 flex-1">
+<div class="flex items-center gap-3 p-3 bg-surface-container-high border-l-4 border-primary text-primary transition-all cursor-pointer">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-label-md text-label-md">Overview</span>
+</div>
+<div class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container transition-all cursor-pointer">
+<span class="material-symbols-outlined">bar_chart</span>
+<span class="font-label-md text-label-md">Metrics</span>
+</div>
+<div class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container transition-all cursor-pointer">
+<span class="material-symbols-outlined">map</span>
+<span class="font-label-md text-label-md">Map</span>
+</div>
+<div class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container transition-all cursor-pointer">
+<span class="material-symbols-outlined">history</span>
+<span class="font-label-md text-label-md">Timeline</span>
+</div>
+<div class="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-container transition-all cursor-pointer">
+<span class="material-symbols-outlined">folder</span>
+<span class="font-label-md text-label-md">Resources</span>
+</div>
+</nav>
+<button class="mt-auto bg-primary-container text-on-primary-container px-4 py-2 font-label-md text-label-md flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined text-sm">download</span>
+            Export Report
+        </button>
+</aside>
+<!-- Main Content Area -->
+<main class="lg:ml-64 pt-24 px-margin-mobile md:px-margin-desktop pb-16">
+<div class="max-w-container-max mx-auto">
+<!-- Hero Section -->
+<header class="mb-12 border-l-8 border-primary pl-8 py-4">
+<p class="font-label-md text-label-md uppercase tracking-widest text-primary mb-2">Programa de Innovación y Sociotecnología — Ingeniería Industrial, Universidad de Chile</p>
+<h1 class="font-display-lg text-display-lg serif-title text-on-surface mb-4">KAYSEN: Informe de Cierre Fase 1</h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-3xl leading-relaxed">Programa de Fortalecimiento del Capital Social y Generación de una Cultura de Innovación en la Comuna de Aysén</p>
+</header>
+<!-- KPI Dashboard -->
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-12">
+<div class="bg-surface-container-lowest p-6 border border-surface-variant flex flex-col items-center justify-center text-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">1.184</span>
+<span class="font-label-md text-label-md text-secondary">Impactados</span>
+</div>
+<div class="bg-surface-container-lowest p-6 border border-surface-variant flex flex-col items-center justify-center text-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">44</span>
+<span class="font-label-md text-label-md text-secondary">Actividades</span>
+</div>
+<div class="bg-surface-container-lowest p-6 border border-surface-variant flex flex-col items-center justify-center text-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">21</span>
+<span class="font-label-md text-label-md text-secondary">Organizaciones</span>
+</div>
+<div class="bg-surface-container-lowest p-6 border border-surface-variant flex flex-col items-center justify-center text-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">95</span>
+<span class="font-label-md text-label-md text-secondary">Actores Clave</span>
+</div>
+<div class="bg-surface-container-lowest p-6 border border-surface-variant flex flex-col items-center justify-center text-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">6.36/7</span>
+<span class="font-label-md text-label-md text-secondary">Beneficio</span>
+</div>
+<div class="bg-surface-container-lowest p-6 border border-surface-variant flex flex-col items-center justify-center text-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">6.02/7</span>
+<span class="font-label-md text-label-md text-secondary">Rol Constructor</span>
+</div>
+</div>
+<!-- Resumen Ejecutivo Bento -->
+<section class="mb-16">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline-lg text-headline-lg serif-title">Resumen Ejecutivo</h2>
+<div class="flex gap-4 border-b border-surface-variant">
+<button class="px-4 py-2 font-label-md text-label-md active-tab" onclick="switchTab(event, 'tab-context')">Contexto</button>
+<button class="px-4 py-2 font-label-md text-label-md text-secondary hover:text-primary" onclick="switchTab(event, 'tab-marco')">Marco Teórico</button>
+<button class="px-4 py-2 font-label-md text-label-md text-secondary hover:text-primary" onclick="switchTab(event, 'tab-sintesis')">Síntesis</button>
+</div>
+</div>
+<div class="bg-white p-10 border border-surface-variant shadow-sm min-h-[300px]" id="resumen-content">
+<div class="tab-pane block" id="tab-context">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div>
+<h3 class="font-headline-md text-headline-md serif-title text-primary mb-4">Contexto y Objetivos</h3>
+<p class="font-body-md text-body-md text-on-surface mb-6 leading-relaxed">
+                                    La Fase 1 de KAYSEN se enfocó en el diagnóstico y la vinculación temprana con el territorio de Aysén. Se buscó establecer una base de confianza institucional para permitir la generación de capital social y técnico en una de las zonas más aisladas del país.
+                                </p>
+<ul class="space-y-3 font-body-md text-body-md">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-primary">check_circle</span> Diagnóstico de brechas de innovación locales.</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-primary">check_circle</span> Mapeo de redes de confianza inter-organizacional.</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-primary">check_circle</span> Validación de la metodología sociotécnica.</li>
+</ul>
+</div>
+<div class="relative h-80 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A professional architectural photograph of a modern research facility in the Chilean Patagonia, featuring clean glass lines and natural wood textures under a soft, overcast sky. The image captures the serene, intellectual atmosphere of the KAYSEN project, reflecting its academic and innovative identity with a palette of soft greys, deep reds, and natural tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM8pdRrlJNgmyyPuKAnFL0mgK-vPjXU0PZ56WU56N0lsrA96w05ZXkW7EfVDnrRKXN6G1QZgmwJNrj8d1GttEc2f-oc1oqozgg9xpNF3BQMpJWe2I_sxpXaNApLPFY43uyYPglI8mUOWykSL4Fjd7bZUKQzRivZEpSWIV9VSFI5OFlnBvDAeC4TIpyKqVbB8xwu27M5kdHvaKx4VbzbGXtrQVE4LGnb2NOwiukcojJTOwPyt5OoQ3M"/>
+</div>
+</div>
+</div>
+<div class="tab-pane hidden" id="tab-marco">
+<h3 class="font-headline-md text-headline-md serif-title text-primary mb-4">Marco Teórico: La Autopoiesis y la Sociotecnología</h3>
+<p class="font-body-md text-body-md text-on-surface mb-6 leading-relaxed italic">
+                            "Los seres vivos somos sistemas determinados en nuestra estructura... existimos en el lenguaje." — Humberto Maturana.
+                        </p>
+<div class="grid md:grid-cols-3 gap-6">
+<div class="p-6 bg-surface-container-low border border-surface-variant">
+<span class="font-label-md text-label-md text-primary mb-2 block uppercase">Maturana &amp; Varela</span>
+<p class="font-caption text-caption">Conceptos de autopoiesis y clausura operacional aplicados al tejido social.</p>
+</div>
+<div class="p-6 bg-surface-container-low border border-surface-variant">
+<span class="font-label-md text-label-md text-primary mb-2 block uppercase">Sociotecnología</span>
+<p class="font-caption text-caption">El diseño de sistemas sociales mediante herramientas tecnológicas y lingüísticas.</p>
+</div>
+<div class="p-6 bg-surface-container-low border border-surface-variant">
+<span class="font-label-md text-label-md text-primary mb-2 block uppercase">Capital Social</span>
+<p class="font-caption text-caption">La confianza como el principal lubricante del desarrollo institucional y comunitario.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Análisis Emocional -->
+<section class="mb-16 grid lg:grid-cols-12 gap-gutter">
+<div class="lg:col-span-8 bg-white p-8 border border-surface-variant">
+<div class="flex justify-between items-start mb-8">
+<div>
+<h2 class="font-headline-lg text-headline-lg serif-title">Análisis de la Matriz Emocional</h2>
+<p class="font-body-md text-body-md text-secondary">Distribución de estados de ánimo predominantes (N=1.184)</p>
+</div>
+<div class="bg-primary-container/10 px-4 py-2 rounded-full border border-primary/20">
+<span class="font-label-md text-label-md text-primary font-bold">r = 0.66 Correlación</span>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-4">
+<span class="w-32 text-right font-label-md text-label-md">Agradecimiento</span>
+<div class="flex-1 h-8 bg-surface-container relative">
+<div class="h-full bg-primary" style="width: 15.38%"></div>
+<span class="absolute right-2 top-1.5 font-label-md text-label-md text-secondary">15.38%</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="w-32 text-right font-label-md text-label-md">Entusiasmo</span>
+<div class="flex-1 h-8 bg-surface-container relative">
+<div class="h-full bg-primary/80" style="width: 9.97%"></div>
+<span class="absolute right-2 top-1.5 font-label-md text-label-md text-secondary">9.97%</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="w-32 text-right font-label-md text-label-md">Optimismo</span>
+<div class="flex-1 h-8 bg-surface-container relative">
+<div class="h-full bg-primary/60" style="width: 8.85%"></div>
+<span class="absolute right-2 top-1.5 font-label-md text-label-md text-secondary">8.85%</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="w-32 text-right font-label-md text-label-md">Curiosidad</span>
+<div class="flex-1 h-8 bg-surface-container relative">
+<div class="h-full bg-primary/40" style="width: 7.20%"></div>
+<span class="absolute right-2 top-1.5 font-label-md text-label-md text-secondary">7.20%</span>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-surface-variant">
+<p class="font-body-md text-body-md text-secondary italic">El estudio revela que las emociones de apertura (Agradecimiento, Entusiasmo) son las que más facilitan la vinculación efectiva con programas de innovación externa.</p>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-gutter">
+<div class="bg-inverse-surface text-surface p-8 h-full flex flex-col justify-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">psychology</span>
+<h3 class="font-headline-md text-headline-md serif-title mb-4">Interacción Humana</h3>
+<p class="font-body-md text-body-md opacity-80 leading-relaxed">
+                            Nuestros algoritmos de análisis semántico identificaron que el 84% de las interacciones generaron una respuesta positiva hacia la institución académica.
+                        </p>
+</div>
+</div>
+</section>
+<!-- Explorador de Actividades (Bento/Card Grid) -->
+<section class="mb-16">
+<div class="flex flex-col md:flex-row justify-between items-end gap-4 mb-8">
+<div>
+<h2 class="font-headline-lg text-headline-lg serif-title">Explorador de Actividades</h2>
+<p class="font-body-md text-body-md text-secondary">Hitos clave de la Fase 1</p>
+</div>
+<div class="flex gap-2">
+<select class="border-surface-variant font-label-md text-label-md rounded px-4 py-2">
+<option>Todos los años</option>
+<option>2023</option>
+<option>2024</option>
+</select>
+<select class="border-surface-variant font-label-md text-label-md rounded px-4 py-2">
+<option>Tipo de Actividad</option>
+<option>Talleres</option>
+<option>Reuniones Técnicas</option>
+</select>
+</div>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Activity Card 1 -->
+<div class="bg-white border border-surface-variant overflow-hidden group hover:border-primary transition-colors cursor-pointer">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A focused group of professionals engaged in a workshop environment, with post-it notes on a whiteboard and digital tablets on the table. The lighting is bright and modern, suggesting a collaborative academic setting. The aesthetic is clean, professional, and reflects the institutional prestige of the University of Chile." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQmgo-EIWM_8lkLZNanZ1CAnO5O_lQHSu5uKXPe3xpPpud3Ut_IaMx87srWquRIk9kRknSTitJwNuj-YwoKW8mpDLhe2YU1abdgajpzml9pBC1sGaNMRrZvFqnSOP6mqOhnmxh6dQC0jFIXAiGb8V2gFdPyiy-MntKD7GeEMZcOqIk8NqJWjHb9LUD8gusLkuezWwQs9HaT1uMRhmBQEPhhA5GY2COhAXhKSKhQa_wzb-gOcN84rmn"/>
+</div>
+<div class="p-6">
+<span class="font-label-md text-label-md text-primary uppercase mb-2 block">Taller Juego de Negocios</span>
+<p class="font-body-md text-body-md mb-4 text-on-surface-variant">Simulación sistémica con emprendedores locales para detectar fallas en la cadena de valor.</p>
+<div class="flex justify-between items-center border-t border-surface-variant pt-4">
+<span class="font-caption text-caption text-secondary">Puerto Aysén</span>
+<span class="material-symbols-outlined text-secondary">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Activity Card 2 -->
+<div class="bg-white border border-surface-variant p-6 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-surface-container rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary">medical_services</span>
+</div>
+<h4 class="font-headline-md text-headline-md serif-title mb-2">Intervención CESFAM</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Levantamiento de procesos internos y cultura organizacional en el Centro de Salud Familiar.</p>
+</div>
+<div class="mt-8 flex gap-2">
+<span class="px-3 py-1 bg-surface-container text-caption font-label-md rounded-full">Salud Pública</span>
+<span class="px-3 py-1 bg-surface-container text-caption font-label-md rounded-full">Gestión</span>
+</div>
+</div>
+<!-- Activity Card 3 -->
+<div class="bg-primary text-white p-8 flex flex-col justify-between">
+<div>
+<h4 class="font-headline-md text-headline-md serif-title mb-4">Vínculo Municipal</h4>
+<p class="font-body-md text-body-md opacity-90">Suscripción de acuerdos estratégicos con la Municipalidad de Aysén para el uso de infraestructuras comunitarias.</p>
+</div>
+<button class="border border-white/40 px-4 py-2 font-label-md text-label-md hover:bg-white/10 transition-all self-start">Ver Documento</button>
+</div>
+<!-- Activity Card 4 -->
+<div class="bg-white border border-surface-variant p-6">
+<span class="font-label-md text-label-md text-secondary uppercase mb-4 block">Gendarmería</span>
+<h4 class="font-headline-md text-headline-md serif-title mb-4">Proyecto "Libertad en Red"</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Capacitación en habilidades digitales para la reinserción laboral sociotécnica.</p>
+</div>
+<!-- Activity Card 5 -->
+<div class="lg:col-span-2 bg-surface-container-high border border-surface-variant p-8 flex gap-8 items-center">
+<div class="flex-1">
+<h4 class="font-headline-md text-headline-md serif-title text-primary mb-2">Alianza CIEP</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Colaboración con el Centro de Investigación en Ecosistemas de la Patagonia para el monitoreo de indicadores ambientales.</p>
+</div>
+<div class="hidden md:block w-32 h-32 bg-white flex items-center justify-center border border-surface-variant">
+<span class="material-symbols-outlined text-4xl text-primary">eco</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Repositorio de Citas (Testimonials) -->
+<section class="mb-16">
+<div class="flex items-center gap-4 mb-8">
+<h2 class="font-headline-lg text-headline-lg serif-title">Repositorio de Citas</h2>
+<div class="h-px flex-1 bg-surface-variant"></div>
+</div>
+<div class="flex gap-2 mb-8 overflow-x-auto pb-2">
+<button class="whitespace-nowrap px-4 py-1 rounded-full bg-primary text-white text-label-md">Todas</button>
+<button class="whitespace-nowrap px-4 py-1 rounded-full border border-surface-variant text-secondary text-label-md">Alta Intensidad</button>
+<button class="whitespace-nowrap px-4 py-1 rounded-full border border-surface-variant text-secondary text-label-md">Confianza</button>
+<button class="whitespace-nowrap px-4 py-1 rounded-full border border-surface-variant text-secondary text-label-md">Optimismo</button>
+</div>
+<div class="columns-1 md:columns-2 gap-gutter space-y-6">
+<!-- Quote 1 -->
+<div class="break-inside-avoid bg-white p-8 border-l-4 border-primary shadow-sm">
+<div class="flex justify-between items-center mb-4">
+<span class="material-symbols-outlined text-primary opacity-30 text-4xl">format_quote</span>
+<span class="text-caption font-label-md text-primary bg-primary/10 px-2 py-1">Score: 159.7</span>
+</div>
+<p class="font-body-lg text-body-lg italic mb-6 leading-relaxed">
+                            "Sentirse parte de algo más grande, ver que la Universidad de Chile llega hasta acá no solo a estudiar, sino a escucharnos, nos da una esperanza que hace mucho no teníamos."
+                        </p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center font-bold text-primary">L</div>
+<div>
+<p class="font-label-md text-label-md">Líder Comunitario</p>
+<p class="font-caption text-caption text-secondary">Aysén Central</p>
+</div>
+</div>
+</div>
+<!-- Quote 2 -->
+<div class="break-inside-avoid bg-surface-container-lowest p-8 border border-surface-variant shadow-sm">
+<div class="flex justify-between items-center mb-4">
+<span class="material-symbols-outlined text-primary opacity-30 text-4xl">format_quote</span>
+<span class="text-caption font-label-md text-primary bg-primary/10 px-2 py-1">Score: 110.6</span>
+</div>
+<p class="font-body-md text-body-md italic mb-6 leading-relaxed">
+                            "Al principio teníamos dudas. Muchos vienen y se van. KAYSEN ha demostrado estar presente en el territorio, caminando las mismas calles."
+                        </p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center font-bold text-primary">F</div>
+<div>
+<p class="font-label-md text-label-md">Funcionario Público</p>
+<p class="font-caption text-caption text-secondary">Salud Local</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Mapa de Actores & Matriz -->
+<section class="mb-16 grid lg:grid-cols-2 gap-gutter">
+<div class="bg-white border border-surface-variant p-8">
+<h3 class="font-headline-md text-headline-md serif-title mb-6">Mapeo de 95 Actores Clave</h3>
+<div class="space-y-4 max-h-[400px] overflow-y-auto pr-4 custom-scrollbar">
+<div class="flex items-center justify-between p-4 border-b border-surface-variant hover:bg-surface-container-low transition-colors cursor-pointer">
+<div class="flex gap-4 items-center">
+<span class="material-symbols-outlined text-secondary">corporate_fare</span>
+<div>
+<p class="font-label-md text-label-md">Asociación de Pescadores</p>
+<p class="font-caption text-caption text-secondary">Organización Base</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary">verified</span>
+</div>
+<div class="flex items-center justify-between p-4 border-b border-surface-variant hover:bg-surface-container-low transition-colors cursor-pointer">
+<div class="flex gap-4 items-center">
+<span class="material-symbols-outlined text-secondary">account_balance</span>
+<div>
+<p class="font-label-md text-label-md">Delegación Presidencial</p>
+<p class="font-caption text-caption text-secondary">Gubernamental</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary">verified</span>
+</div>
+<div class="flex items-center justify-between p-4 border-b border-surface-variant hover:bg-surface-container-low transition-colors cursor-pointer">
+<div class="flex gap-4 items-center">
+<span class="material-symbols-outlined text-secondary">school</span>
+<div>
+<p class="font-label-md text-label-md">Liceo Politécnico Aysén</p>
+<p class="font-caption text-caption text-secondary">Educación</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary">verified</span>
+</div>
+<div class="flex items-center justify-center p-4">
+<button class="text-primary font-label-md text-label-md hover:underline">Ver todos los actores (+92)</button>
+</div>
+</div>
+</div>
+<div class="bg-white border border-surface-variant p-8 overflow-hidden">
+<h3 class="font-headline-md text-headline-md serif-title mb-6">Matriz de Proyectos</h3>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-md">
+<thead class="bg-secondary text-white uppercase text-caption tracking-wider">
+<tr>
+<th class="p-3">Proyecto</th>
+<th class="p-3">Estado</th>
+<th class="p-3">Prioridad</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-variant">
+<tr>
+<td class="p-4 font-label-md">Red de Datos Rural</td>
+<td class="p-4"><span class="px-2 py-1 bg-green-100 text-green-800 text-[10px] font-bold uppercase rounded">Activo</span></td>
+<td class="p-4 text-secondary">Alta</td>
+</tr>
+<tr>
+<td class="p-4 font-label-md">Capacitación Digital</td>
+<td class="p-4"><span class="px-2 py-1 bg-blue-100 text-blue-800 text-[10px] font-bold uppercase rounded">En Ejecución</span></td>
+<td class="p-4 text-secondary">Media</td>
+</tr>
+<tr>
+<td class="p-4 font-label-md">Gobernanza Hídrica</td>
+<td class="p-4"><span class="px-2 py-1 bg-yellow-100 text-yellow-800 text-[10px] font-bold uppercase rounded">Planificación</span></td>
+<td class="p-4 text-secondary">Crítica</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- Logros & Hoja de Ruta -->
+<section class="mb-16">
+<div class="grid md:grid-cols-3 border border-surface-variant">
+<div class="p-8 border-r border-surface-variant hover:bg-surface transition-colors">
+<span class="material-symbols-outlined text-primary mb-4">emoji_events</span>
+<h4 class="font-headline-md text-headline-md serif-title mb-4">Logros Fase 1</h4>
+<ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
+<li>• Validación del modelo de confianza.</li>
+<li>• Superación de metas de alcance (+18%).</li>
+<li>• Red de contactos institucionalizada.</li>
+</ul>
+</div>
+<div class="p-8 border-r border-surface-variant hover:bg-surface transition-colors">
+<span class="material-symbols-outlined text-primary mb-4">warning</span>
+<h4 class="font-headline-md text-headline-md serif-title mb-4">Quiebres &amp; Desafíos</h4>
+<ul class="space-y-4 font-body-md text-body-md text-on-surface-variant">
+<li>• Brecha de conectividad física extrema.</li>
+<li>• Resistencia inicial al lenguaje técnico.</li>
+<li>• Tiempos de respuesta burocráticos.</li>
+</ul>
+</div>
+<div class="p-8 bg-surface-container-high hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-primary mb-4">rocket_launch</span>
+<h4 class="font-headline-md text-headline-md serif-title mb-4">Propuesta Futura</h4>
+<ul class="space-y-4 font-body-md text-body-md text-primary font-bold">
+<li>→ Implementación de Hub Tecnológico.</li>
+<li>→ Segunda fase de escalamiento regional.</li>
+<li>→ Digitalización de trámites locales.</li>
+</ul>
+<button class="mt-8 w-full bg-primary text-white py-3 font-label-md text-label-md hover:bg-primary-container transition-colors">Ver Plan Fase 2</button>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-margin-desktop bg-surface-container-highest border-t border-surface-variant mt-auto">
+<div class="max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+<div class="flex flex-col gap-4">
+<img alt="Logo Universidad de Chile" class="h-20 object-contain w-auto grayscale opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC70GIvN26-UhopNv605yOaOIbACUnedAFOCoZK4bD07Rzj3I0SmJmRNgst1gune3EDaGw17aPDUJOoXGpkdl11vTRMTBlYzMeo4XvjRm3DNMJiYIXR2zRsd6hGePcHAVh0YvnzCWcorF12u_f4nq8RTsYik6UafDYthMxEH0PumVbE9qhnBbndgUec5WkiRR8Xai-gub4zbniXiq_myMIu_fDIXqBq3C9UYXr8sShZSqLAM9J93M2_LfUB1keaduf9xw"/>
+<p class="font-label-md text-label-md text-on-surface-variant max-w-xs">
+                    Ingeniería Industrial — Universidad de Chile. 
+                    Beauchef 851, Santiago, Chile.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-12">
+<div class="flex flex-col gap-4">
+<span class="font-label-md text-label-md font-bold uppercase tracking-widest text-secondary">Documentación</span>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline" href="#">Terms of Service</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline" href="#">Privacy Policy</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-label-md text-label-md font-bold uppercase tracking-widest text-secondary">Recursos</span>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline" href="#">Academic Citations</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline" href="#">Contact Support</a>
+</div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto mt-12 pt-8 border-t border-surface-variant text-center">
+<p class="font-label-md text-label-md text-secondary opacity-60">© 2024 Proyecto KAYSEN - Universidad de Chile. Institutional Authorship Reserved.</p>
+</div>
+</footer>
+<script>
+        function switchTab(event, tabId) {
+            // Hide all tab panes
+            const panes = document.querySelectorAll('.tab-pane');
+            panes.forEach(pane => pane.classList.add('hidden'));
+            panes.forEach(pane => pane.classList.remove('block'));
+
+            // Deactivate all buttons
+            const buttons = event.currentTarget.parentNode.querySelectorAll('button');
+            buttons.forEach(btn => {
+                btn.classList.remove('active-tab');
+                btn.classList.add('text-secondary');
+            });
+
+            // Show active pane
+            document.getElementById(tabId).classList.remove('hidden');
+            document.getElementById(tabId).classList.add('block');
+
+            // Activate current button
+            event.currentTarget.classList.add('active-tab');
+            event.currentTarget.classList.remove('text-secondary');
+        }
+
+        // Add a simple scroll interaction for navigation
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 20) {
+                nav.classList.add('shadow-md');
+            } else {
+                nav.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body></html>

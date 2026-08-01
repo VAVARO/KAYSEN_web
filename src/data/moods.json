@@ -1,0 +1,197 @@
+[
+  {
+    "mood": "Agradecimiento",
+    "count": 179,
+    "percentage": "15.38%"
+  },
+  {
+    "mood": "Entusiasmo",
+    "count": 116,
+    "percentage": "9.97%"
+  },
+  {
+    "mood": "Optimismo",
+    "count": 103,
+    "percentage": "8.85%"
+  },
+  {
+    "mood": "Interés",
+    "count": 92,
+    "percentage": "7.90%"
+  },
+  {
+    "mood": "Tranquilidad",
+    "count": 79,
+    "percentage": "6.79%"
+  },
+  {
+    "mood": "Esperanza",
+    "count": 73,
+    "percentage": "6.27%"
+  },
+  {
+    "mood": "Confianza",
+    "count": 71,
+    "percentage": "6.10%"
+  },
+  {
+    "mood": "Aceptación",
+    "count": 56,
+    "percentage": "4.81%"
+  },
+  {
+    "mood": "Alegría",
+    "count": 55,
+    "percentage": "4.73%"
+  },
+  {
+    "mood": "Satisfacción",
+    "count": 55,
+    "percentage": "4.73%"
+  },
+  {
+    "mood": "Curiosidad",
+    "count": 44,
+    "percentage": "3.78%"
+  },
+  {
+    "mood": "Expectación",
+    "count": 38,
+    "percentage": "3.26%"
+  },
+  {
+    "mood": "Colaboración",
+    "count": 27,
+    "percentage": "2.32%"
+  },
+  {
+    "mood": "Paz",
+    "count": 22,
+    "percentage": "1.89%"
+  },
+  {
+    "mood": "Determinación",
+    "count": 22,
+    "percentage": "1.89%"
+  },
+  {
+    "mood": "Inquietud",
+    "count": 20,
+    "percentage": "1.72%"
+  },
+  {
+    "mood": "Ansiedad",
+    "count": 19,
+    "percentage": "1.63%"
+  },
+  {
+    "mood": "Ambición",
+    "count": 15,
+    "percentage": "1.29%"
+  },
+  {
+    "mood": "Escepticismo",
+    "count": 13,
+    "percentage": "1.12%"
+  },
+  {
+    "mood": "Prudencia",
+    "count": 13,
+    "percentage": "1.12%"
+  },
+  {
+    "mood": "Intranquilidad",
+    "count": 9,
+    "percentage": "0.77%"
+  },
+  {
+    "mood": "Confusión",
+    "count": 8,
+    "percentage": "0.69%"
+  },
+  {
+    "mood": "Impaciencia",
+    "count": 8,
+    "percentage": "0.69%"
+  },
+  {
+    "mood": "Pasión",
+    "count": 7,
+    "percentage": "0.60%"
+  },
+  {
+    "mood": "Resignación",
+    "count": 3,
+    "percentage": "0.26%"
+  },
+  {
+    "mood": "Desinterés",
+    "count": 3,
+    "percentage": "0.26%"
+  },
+  {
+    "mood": "Enojo",
+    "count": 2,
+    "percentage": "0.17%"
+  },
+  {
+    "mood": "Nostalgia",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "En esta fase de cierre",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "Me encuentro con dos estados de ánimo complementarios",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "Por una parte",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "Motivación",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "Plenitud",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "En general",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "Abierta a seguir aprendiendo e indagando por mi cuenta",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "Enamorada de mis sueños",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "Incertidumbre",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "Desconfianza",
+    "count": 1,
+    "percentage": "0.09%"
+  },
+  {
+    "mood": "Reflexión",
+    "count": 1,
+    "percentage": "0.09%"
+  }
+]

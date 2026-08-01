@@ -1,0 +1,770 @@
+[
+  {
+    "id": "actor-1",
+    "sector": "Sector Público",
+    "institution": "Servicio de Salud Aysén (SSA)",
+    "name": "César Reguero",
+    "role": "",
+    "rawText": "**César Reguero** *(Director AxM / SSA)*"
+  },
+  {
+    "id": "actor-2",
+    "sector": "Sector Público",
+    "institution": "Servicio de Salud Aysén (SSA)",
+    "name": "José Obreque",
+    "role": "",
+    "rawText": "**José Obreque** *(Representante SSA / AxM)*"
+  },
+  {
+    "id": "actor-3",
+    "sector": "Sector Público",
+    "institution": "Servicio de Salud Aysén (SSA)",
+    "name": "Juan Pablo Bravo",
+    "role": "",
+    "rawText": "**Juan Pablo Bravo** *(Director Servicio de Salud Aysén)*"
+  },
+  {
+    "id": "actor-4",
+    "sector": "Sector Público",
+    "institution": "Servicio de Salud Aysén (SSA)",
+    "name": "Nattalie Duffeau",
+    "role": "",
+    "rawText": "**Nattalie Duffeau** *(Directora (s) Hospital Puerto Aysén / SSA)*"
+  },
+  {
+    "id": "actor-5",
+    "sector": "Sector Público",
+    "institution": "Hospital Regional Coyhaique (HRC)",
+    "name": "Victoria Pinto",
+    "role": "",
+    "rawText": "**Victoria Pinto** *(Directora Hospital Regional Coyhaique)*"
+  },
+  {
+    "id": "actor-6",
+    "sector": "Sector Público",
+    "institution": "Hospital Regional Coyhaique (HRC)",
+    "name": "Daniel Aravena",
+    "role": "",
+    "rawText": "**Daniel Aravena** *(Gestión de la Demanda HRC)*"
+  },
+  {
+    "id": "actor-7",
+    "sector": "Sector Público",
+    "institution": "Hospital Puerto Aysén (HPA)",
+    "name": "Nacha Valdés",
+    "role": "",
+    "rawText": "**Nacha Valdés** *(Subdirectora Médica HPA)*"
+  },
+  {
+    "id": "actor-8",
+    "sector": "Sector Público",
+    "institution": "Salud Local (Puerto Aysén / Red Salud)",
+    "name": "Jaime Joost",
+    "role": "",
+    "rawText": "**Jaime Joost** *(Kinesiólogo, Puerto Aysén)*"
+  },
+  {
+    "id": "actor-9",
+    "sector": "Sector Público",
+    "institution": "Salud Local (Puerto Aysén / Red Salud)",
+    "name": "Sergio Gaete",
+    "role": "",
+    "rawText": "**Sergio Gaete** *(Médico / Humanización de la Medicina)*"
+  },
+  {
+    "id": "actor-10",
+    "sector": "Sector Público",
+    "institution": "Red de Salud Regional (SSA / HRC / CESFAM)",
+    "name": "Joaquín Gutiérrez",
+    "role": "",
+    "rawText": "**Joaquín Gutiérrez** *(Profesional de Salud)*"
+  },
+  {
+    "id": "actor-11",
+    "sector": "Sector Público",
+    "institution": "Red de Salud Regional (SSA / HRC / CESFAM)",
+    "name": "Catalina Herrera",
+    "role": "",
+    "rawText": "**Catalina Herrera** *(Profesional de Salud)*"
+  },
+  {
+    "id": "actor-12",
+    "sector": "Sector Público",
+    "institution": "Red de Salud Regional (SSA / HRC / CESFAM)",
+    "name": "Johnny Llaipén",
+    "role": "",
+    "rawText": "**Johnny Llaipén** *(Profesional de Salud)*"
+  },
+  {
+    "id": "actor-13",
+    "sector": "Sector Público",
+    "institution": "Red de Salud Regional (SSA / HRC / CESFAM)",
+    "name": "Rodrigo Díaz",
+    "role": "",
+    "rawText": "**Rodrigo Díaz** *(Profesional de Salud)*"
+  },
+  {
+    "id": "actor-14",
+    "sector": "Sector Público",
+    "institution": "Red de Salud Regional (SSA / HRC / CESFAM)",
+    "name": "Paulina Arriagada",
+    "role": "",
+    "rawText": "**Paulina Arriagada** *(Profesional de Salud)*"
+  },
+  {
+    "id": "actor-15",
+    "sector": "Sector Público",
+    "institution": "Red de Salud Regional (SSA / HRC / CESFAM)",
+    "name": "Masiel Ducreaus",
+    "role": "",
+    "rawText": "**Masiel Ducreaus** *(Profesional de Salud)*"
+  },
+  {
+    "id": "actor-16",
+    "sector": "Sector Público",
+    "institution": "Municipalidad de Aysén",
+    "name": "Julio Uribe",
+    "role": "",
+    "rawText": "**Julio Uribe** *(Alcalde de Aysén)*"
+  },
+  {
+    "id": "actor-17",
+    "sector": "Sector Público",
+    "institution": "Municipalidad de Aysén",
+    "name": "Felisa Ojeda",
+    "role": "",
+    "rawText": "**Felisa Ojeda** *(Administradora Municipal / Directora SECPLAN)"
+  },
+  {
+    "id": "actor-18",
+    "sector": "Sector Público",
+    "institution": "Municipalidad de Aysén",
+    "name": "Laura Mera",
+    "role": "",
+    "rawText": "**Laura Mera** (Ex Secretaria Alcalde)"
+  },
+  {
+    "id": "actor-19",
+    "sector": "Sector Público",
+    "institution": "Municipalidad de Aysén",
+    "name": "Rita Aguilar",
+    "role": "",
+    "rawText": "**Rita Aguilar** (Ex DIDECO)*"
+  },
+  {
+    "id": "actor-20",
+    "sector": "Sector Público",
+    "institution": "Municipalidad de Aysén",
+    "name": "Luis Martínez",
+    "role": "",
+    "rawText": "**Luis Martínez** *(Alcalde Actual)*"
+  },
+  {
+    "id": "actor-21",
+    "sector": "Sector Público",
+    "institution": "Gendarmería Regional",
+    "name": "Pablo Torres",
+    "role": "",
+    "rawText": "**Pablo Torres** *(Oficial / Profesional Gendarmería Aysén)*"
+  },
+  {
+    "id": "actor-22",
+    "sector": "Sector Público",
+    "institution": "Gendarmería Regional",
+    "name": "Jimmy Saavedra",
+    "role": "",
+    "rawText": "**Jimmy Saavedra** *(Oficial / Profesional Gendarmería Aysén)*"
+  },
+  {
+    "id": "actor-23",
+    "sector": "Sector Público",
+    "institution": "Gendarmería Regional",
+    "name": "Allen Sepúlveda",
+    "role": "",
+    "rawText": "**Allen Sepúlveda** *(Oficial / Profesional Gendarmería Aysén)*"
+  },
+  {
+    "id": "actor-24",
+    "sector": "Sector Público",
+    "institution": "Gobierno Regional y Delegación Presidencial",
+    "name": "Luz María Vicuña",
+    "role": "",
+    "rawText": "**Luz María Vicuña** *(Delegada Presidencial Regional de Aysén)*"
+  },
+  {
+    "id": "actor-25",
+    "sector": "Sector Público",
+    "institution": "Gobierno Regional y Delegación Presidencial",
+    "name": "Marcelo Santana",
+    "role": "",
+    "rawText": "**Marcelo Santana** *(Gobernador Regional)*"
+  },
+  {
+    "id": "actor-26",
+    "sector": "Sector Público",
+    "institution": "Gobierno Regional y Delegación Presidencial",
+    "name": "Rosa Gonzalez",
+    "role": "",
+    "rawText": "**Rosa Gonzalez** *(Consejera Regional \\- CORE Aysén)*"
+  },
+  {
+    "id": "actor-27",
+    "sector": "Sector Público",
+    "institution": "Gobierno Regional y Delegación Presidencial",
+    "name": "Fernando Guzmán",
+    "role": "",
+    "rawText": "**Fernando Guzmán** *(Jefe DIFOI GORE Aysén)*"
+  },
+  {
+    "id": "actor-28",
+    "sector": "Sector Público",
+    "institution": "Gobierno Regional y Delegación Presidencial",
+    "name": "Fernando Johnsonn",
+    "role": "",
+    "rawText": "**Fernando Johnsonn** *(Subdirector DIFOI GORE Aysén)*"
+  },
+  {
+    "id": "actor-29",
+    "sector": "Sector Público",
+    "institution": "Gobierno Regional y Delegación Presidencial",
+    "name": "Nestor Mera",
+    "role": "",
+    "rawText": "**Nestor Mera** *(Administrador Regional GORE Aysén / CIEP)*"
+  },
+  {
+    "id": "actor-30",
+    "sector": "Sector Público",
+    "institution": "Servicios Públicos Regionales (CORFO, SERNATUR, SLEP)",
+    "name": "Boris López",
+    "role": "",
+    "rawText": "**Boris López** *(Subdirector CORFO Aysén)*"
+  },
+  {
+    "id": "actor-31",
+    "sector": "Sector Público",
+    "institution": "Servicios Públicos Regionales (CORFO, SERNATUR, SLEP)",
+    "name": "Claudio Montecinos",
+    "role": "",
+    "rawText": "**Claudio Montecinos** *(Director Regional SERNATUR Aysén)*"
+  },
+  {
+    "id": "actor-32",
+    "sector": "Sector Público",
+    "institution": "Servicios Públicos Regionales (CORFO, SERNATUR, SLEP)",
+    "name": "Sebastián Gonzalez",
+    "role": "",
+    "rawText": "**Sebastián Gonzalez** *(Director Servicio Local de Educación Pública \\- SLEP)*"
+  },
+  {
+    "id": "actor-33",
+    "sector": "Sector Privado",
+    "institution": "Industria Acuícola y Pesquera (Friosur, MOWI, AquaChile, SalmonChile)",
+    "name": "Enrique Garín",
+    "role": "",
+    "rawText": "**Enrique Garín** *(Gerente Asuntos Corporativos Friosur / Director CorpAysén)*"
+  },
+  {
+    "id": "actor-34",
+    "sector": "Sector Privado",
+    "institution": "Industria Acuícola y Pesquera (Friosur, MOWI, AquaChile, SalmonChile)",
+    "name": "Rubén Leal",
+    "role": "",
+    "rawText": "**Rubén Leal** *(Presidente SITRAF / Director Friosur y CorpAysén)*"
+  },
+  {
+    "id": "actor-35",
+    "sector": "Sector Privado",
+    "institution": "Industria Acuícola y Pesquera (Friosur, MOWI, AquaChile, SalmonChile)",
+    "name": "Fernando Camiruaga",
+    "role": "",
+    "rawText": "**Fernando Camiruaga** *(Representante Territorial SalmonChile)*"
+  },
+  {
+    "id": "actor-36",
+    "sector": "Sector Privado",
+    "institution": "Industria Acuícola y Pesquera (Friosur, MOWI, AquaChile, SalmonChile)",
+    "name": "Fernando Villarroel",
+    "role": "",
+    "rawText": "**Fernando Villarroel** *(CEO MOWI Chile)*"
+  },
+  {
+    "id": "actor-37",
+    "sector": "Sector Privado",
+    "institution": "Industria Acuícola y Pesquera (Friosur, MOWI, AquaChile, SalmonChile)",
+    "name": "Ximena Solís",
+    "role": "",
+    "rawText": "**Ximena Solís** *(Asuntos Corporativos AquaChile / CIEP)*"
+  },
+  {
+    "id": "actor-38",
+    "sector": "Sector Privado",
+    "institution": "Gremios, Comercio y Desarrollo Empresarial (CorpAysén, CDR, B400, Hiperpatagónico)",
+    "name": "Hernán Rebolledo",
+    "role": "",
+    "rawText": "**Hernán Rebolledo** *(Presidente CorpAysén / Director CDR)*"
+  },
+  {
+    "id": "actor-39",
+    "sector": "Sector Privado",
+    "institution": "Gremios, Comercio y Desarrollo Empresarial (CorpAysén, CDR, B400, Hiperpatagónico)",
+    "name": "Arístides Benavente",
+    "role": "",
+    "rawText": "**Arístides Benavente** *(Director Corporación Desarrollo Regional / Empresario)*"
+  },
+  {
+    "id": "actor-40",
+    "sector": "Sector Privado",
+    "institution": "Gremios, Comercio y Desarrollo Empresarial (CorpAysén, CDR, B400, Hiperpatagónico)",
+    "name": "Héctor Canales",
+    "role": "",
+    "rawText": "**Héctor Canales** *(Fundador Hiperpatagónico / Dueño Hacienda Patagonia)*"
+  },
+  {
+    "id": "actor-41",
+    "sector": "Sector Privado",
+    "institution": "Gremios, Comercio y Desarrollo Empresarial (CorpAysén, CDR, B400, Hiperpatagónico)",
+    "name": "Alejandro Allende",
+    "role": "",
+    "rawText": "**Alejandro Allende** *(Empresario / Dueño B400)*"
+  },
+  {
+    "id": "actor-42",
+    "sector": "Sector Privado",
+    "institution": "Gremios, Comercio y Desarrollo Empresarial (CorpAysén, CDR, B400, Hiperpatagónico)",
+    "name": "Alex Foessel",
+    "role": "",
+    "rawText": "**Alex Foessel** *(Empresario / Red de Alianzas RdA)*"
+  },
+  {
+    "id": "actor-43",
+    "sector": "Sector Privado",
+    "institution": "Gremios, Comercio y Desarrollo Empresarial (CorpAysén, CDR, B400, Hiperpatagónico)",
+    "name": "Eduardo Vera",
+    "role": "",
+    "rawText": "**Eduardo Vera** *(Dueño El Divisadero / Presidente Emporcha)*"
+  },
+  {
+    "id": "actor-44",
+    "sector": "Sector Privado",
+    "institution": "Gremios, Comercio y Desarrollo Empresarial (CorpAysén, CDR, B400, Hiperpatagónico)",
+    "name": "Enrique Runin",
+    "role": "",
+    "rawText": "**Enrique Runin** *(Empresario Marítimo / Ex Presidente EMPORCHA)*"
+  },
+  {
+    "id": "actor-45",
+    "sector": "Sector Privado",
+    "institution": "Consultoría, Medios e Innovación Privada",
+    "name": "Carlos Díaz",
+    "role": "",
+    "rawText": "**Carlos Díaz** *(Consultor Independiente / CIEP)*"
+  },
+  {
+    "id": "actor-46",
+    "sector": "Sector Privado",
+    "institution": "Consultoría, Medios e Innovación Privada",
+    "name": "Natalia Olave",
+    "role": "",
+    "rawText": "**Natalia Olave** *(Consultora / B400)*"
+  },
+  {
+    "id": "actor-47",
+    "sector": "Sector Privado",
+    "institution": "Consultoría, Medios e Innovación Privada",
+    "name": "Francisca Bahamonde",
+    "role": "",
+    "rawText": "**Francisca Bahamonde** *(Empresaria / Médica Veterinaria \\- AyCiencia, Kreen)*"
+  },
+  {
+    "id": "actor-48",
+    "sector": "Sector Privado",
+    "institution": "Consultoría, Medios e Innovación Privada",
+    "name": "Jorge Díaz Guzmán",
+    "role": "",
+    "rawText": "**Jorge Díaz Guzmán** *(Periodista / Comunicador Regional)*"
+  },
+  {
+    "id": "actor-49",
+    "sector": "Sector Privado",
+    "institution": "Consultoría, Medios e Innovación Privada",
+    "name": "Matías Reeves",
+    "role": "",
+    "rawText": "**Matías Reeves** *(Consultor / Emprendedor Social)*"
+  },
+  {
+    "id": "actor-50",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Charlie Di Smeth",
+    "role": "",
+    "rawText": "**Charlie Di Smeth** *(Empresario / Actor Privado Regional)*"
+  },
+  {
+    "id": "actor-51",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Nuero de Charlie Di Smeth",
+    "role": "",
+    "rawText": "**Nuero de Charlie Di Smeth** *(Actor Privado Regional)*"
+  },
+  {
+    "id": "actor-52",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Gonzalo Marfán",
+    "role": "",
+    "rawText": "**Gonzalo Marfán** *(Ingeniero Comercial)*"
+  },
+  {
+    "id": "actor-53",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Mónica Montecinos",
+    "role": "",
+    "rawText": "**Mónica Montecinos** *(Actora Sector Privado)*"
+  },
+  {
+    "id": "actor-54",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Paula Moreno",
+    "role": "",
+    "rawText": "**Paula Moreno** *(Actora Sector Privado)*"
+  },
+  {
+    "id": "actor-55",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Rodrigo Pérez",
+    "role": "",
+    "rawText": "**Rodrigo Pérez** *(Actor Sector Privado)*"
+  },
+  {
+    "id": "actor-56",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Nicol Zamora",
+    "role": "",
+    "rawText": "**Nicol Zamora** *(Actora Sector Privado)*"
+  },
+  {
+    "id": "actor-57",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Dominique Mauret",
+    "role": "",
+    "rawText": "**Dominique Mauret** *(Actora Sector Privado)*"
+  },
+  {
+    "id": "actor-58",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "María Elena Así",
+    "role": "",
+    "rawText": "**María Elena Así** *(Actora Sector Privado)*"
+  },
+  {
+    "id": "actor-59",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Mario Anfruns",
+    "role": "",
+    "rawText": "**Mario Anfruns** *(Actor Sector Privado)*"
+  },
+  {
+    "id": "actor-60",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Gabriela Olivares",
+    "role": "",
+    "rawText": "**Gabriela Olivares** *(Actora Sector Privado)*"
+  },
+  {
+    "id": "actor-61",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Sebastián Vega",
+    "role": "",
+    "rawText": "**Sebastián Vega** *(Actor Sector Privado)*"
+  },
+  {
+    "id": "actor-62",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Johnny Valencia",
+    "role": "",
+    "rawText": "**Johnny Valencia** *(Actor Sector Privado)*"
+  },
+  {
+    "id": "actor-63",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Felipe Candia",
+    "role": "",
+    "rawText": "**Felipe Candia** *(Actor Sector Privado)*"
+  },
+  {
+    "id": "actor-64",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "Óscar Gómez",
+    "role": "",
+    "rawText": "**Óscar Gómez** *(Actor Sector Privado)*"
+  },
+  {
+    "id": "actor-65",
+    "sector": "Sector Privado",
+    "institution": "Comercio, Servicios y Actores Privados Locales",
+    "name": "María Isabel Zapata",
+    "role": "",
+    "rawText": "**María Isabel Zapata** *(Actora Sector Privado)*"
+  },
+  {
+    "id": "actor-66",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Universidad de Chile",
+    "name": "Eduardo Contreras",
+    "role": "",
+    "rawText": "**Eduardo Contreras** *(Profesor Departamento Ingeniería Industrial \\- DII)*"
+  },
+  {
+    "id": "actor-67",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Universidad de Chile",
+    "name": "Andrea Peroni",
+    "role": "",
+    "rawText": "**Andrea Peroni** *(Académica Mg. Gestión y Políticas Públicas \\- MGPP)*"
+  },
+  {
+    "id": "actor-68",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Universidad de Chile",
+    "name": "Rafael Epstein",
+    "role": "",
+    "rawText": "**Rafael Epstein** *(Profesor DII / Ex Prorrector U. de Chile)*"
+  },
+  {
+    "id": "actor-69",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Universidad de Chile",
+    "name": "Graciela Rojas",
+    "role": "",
+    "rawText": "**Graciela Rojas** *(Académica / Investigadora U. de Chile)*"
+  },
+  {
+    "id": "actor-70",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Universidad de Aysén (UAysén)",
+    "name": "Víctor Cubillos",
+    "role": "",
+    "rawText": "**Víctor Cubillos** *(Rector Universidad de Aysén)*"
+  },
+  {
+    "id": "actor-71",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Universidad de Aysén (UAysén)",
+    "name": "Paulina Flores",
+    "role": "",
+    "rawText": "**Paulina Flores** *(Prorrectora Universidad de Aysén)*"
+  },
+  {
+    "id": "actor-72",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Universidad de Aysén (UAysén)",
+    "name": "Ximena Paredes",
+    "role": "",
+    "rawText": "**Ximena Paredes** *(Vicerrectora Académica UAysén)*"
+  },
+  {
+    "id": "actor-73",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Universidad de Aysén (UAysén)",
+    "name": "Constanza Gatica",
+    "role": "",
+    "rawText": "**Constanza Gatica** *(Coordinadora Programa PACE UAysén)*"
+  },
+  {
+    "id": "actor-74",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "CFT Estatal de Aysén y Formación Técnica",
+    "name": "Cristopher Contreras",
+    "role": "",
+    "rawText": "**Cristopher Contreras** *(Rector (s) CFT Estatal de Aysén)*"
+  },
+  {
+    "id": "actor-75",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "CFT Estatal de Aysén y Formación Técnica",
+    "name": "Selim Carrasco",
+    "role": "",
+    "rawText": "**Selim Carrasco** *(Fiscal CFT Regional / Director CDR)*"
+  },
+  {
+    "id": "actor-76",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Otras Instituciones Académicas y Formativas",
+    "name": "Nicolás Escudero",
+    "role": "",
+    "rawText": "**Nicolás Escudero** *(Docente / Profesional de Formación)*"
+  },
+  {
+    "id": "actor-77",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Otras Instituciones Académicas y Formativas",
+    "name": "Victor Hugo Álvarez",
+    "role": "",
+    "rawText": "**Victor Hugo Álvarez** *(Docente / Profesional de Formación)*"
+  },
+  {
+    "id": "actor-78",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Otras Instituciones Académicas y Formativas",
+    "name": "Hugo Uribe",
+    "role": "",
+    "rawText": "**Hugo Uribe** *(Docente / Profesional de Formación)*"
+  },
+  {
+    "id": "actor-79",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Centro de Investigación en Ecosistemas de la Patagonia (CIEP)",
+    "name": "Andrea Foessel",
+    "role": "",
+    "rawText": "**Andrea Foessel** *(Directora Ejecutiva CIEP)*"
+  },
+  {
+    "id": "actor-80",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Centro de Investigación en Ecosistemas de la Patagonia (CIEP)",
+    "name": "Jaime López",
+    "role": "",
+    "rawText": "**Jaime López** *(Administrador CIEP / Ex Director HRC)*"
+  },
+  {
+    "id": "actor-81",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Fundaciones, ONG y Organizaciones de Desarrollo",
+    "name": "Pamela Barroso",
+    "role": "",
+    "rawText": "**Pamela Barroso** *(Directora Regional Fundación Balloon Latam)*"
+  },
+  {
+    "id": "actor-82",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Fundaciones, ONG y Organizaciones de Desarrollo",
+    "name": "Macarena Pola",
+    "role": "",
+    "rawText": "**Macarena Pola** *(Directora / Profesional ONG Canales Coyhaique)*"
+  },
+  {
+    "id": "actor-83",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Fundaciones, ONG y Organizaciones de Desarrollo",
+    "name": "Cristián Ugarte",
+    "role": "",
+    "rawText": "**Cristián Ugarte** *(Gerente General Fundación Universidad de Aysén \\- FUA)*"
+  },
+  {
+    "id": "actor-84",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Cultura, Editorial y Patrimonio Local",
+    "name": "Cecilia Pino",
+    "role": "",
+    "rawText": "**Cecilia Pino** *(Dueña Puerto Libro / Patagona Editorial)*"
+  },
+  {
+    "id": "actor-85",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Cultura, Editorial y Patrimonio Local",
+    "name": "Claudio Rosso",
+    "role": "",
+    "rawText": "**Claudio Rosso** *(Escritor / Patagona Editorial)*"
+  },
+  {
+    "id": "actor-86",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Cultura, Editorial y Patrimonio Local",
+    "name": "Magdalena Rosas",
+    "role": "",
+    "rawText": "**Magdalena Rosas** *(Directora Escuela de Música de Aysén)*"
+  },
+  {
+    "id": "actor-87",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Cultura, Editorial y Patrimonio Local",
+    "name": "Patricia Araya",
+    "role": "",
+    "rawText": "**Patricia Araya** *(Música / Gestora Cultural)*"
+  },
+  {
+    "id": "actor-88",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Ciudadanía, Facilitación Comunitaria e Iniciativa Local",
+    "name": "Familia Galilea",
+    "role": "",
+    "rawText": "**Familia Galilea** *(Familia y Tradición Comunal de Aysén)*"
+  },
+  {
+    "id": "actor-89",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Ciudadanía, Facilitación Comunitaria e Iniciativa Local",
+    "name": "Tomás de Gueneau",
+    "role": "",
+    "rawText": "**Tomás de Gueneau** *(Facilitador Comunitario Coyhaique)*"
+  },
+  {
+    "id": "actor-90",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Ciudadanía, Facilitación Comunitaria e Iniciativa Local",
+    "name": "José Aldunate",
+    "role": "",
+    "rawText": "**José Aldunate** *(Diseñador / Creador Local Coyhaique)*"
+  },
+  {
+    "id": "actor-91",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Ciudadanía, Facilitación Comunitaria e Iniciativa Local",
+    "name": "Natalia Miranda",
+    "role": "",
+    "rawText": "**Natalia Miranda** *(Arquitecta HabitatAustralis Coyhaique)*"
+  },
+  {
+    "id": "actor-92",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Ciudadanía, Facilitación Comunitaria e Iniciativa Local",
+    "name": "Humberto Marín",
+    "role": "",
+    "rawText": "**Humberto Marín** *(Consultor / Ex Director CORFO)*"
+  },
+  {
+    "id": "actor-93",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Ciudadanía, Facilitación Comunitaria e Iniciativa Local",
+    "name": "Omar Muñoz",
+    "role": "",
+    "rawText": "**Omar Muñoz** *(Profesional Regional / Ex Director CORFO)*"
+  },
+  {
+    "id": "actor-94",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Ciudadanía, Facilitación Comunitaria e Iniciativa Local",
+    "name": "Cecilia Torres",
+    "role": "",
+    "rawText": "**Cecilia Torres** *(Actora Comunitaria)*"
+  },
+  {
+    "id": "actor-95",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Ciudadanía, Facilitación Comunitaria e Iniciativa Local",
+    "name": "Marina Solís",
+    "role": "",
+    "rawText": "**Marina Solís** *(Actora Comunitaria)*"
+  },
+  {
+    "id": "actor-96",
+    "sector": "Sociedad Civil, Academia y Ciudadanía",
+    "institution": "Ciudadanía, Facilitación Comunitaria e Iniciativa Local",
+    "name": "Jaime Carrillo",
+    "role": "",
+    "rawText": "**Jaime Carrillo** *(Actor Comunitario)*"
+  }
+]
