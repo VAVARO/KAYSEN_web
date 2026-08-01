@@ -91,13 +91,13 @@ export default function Header({ activeTab, setActiveTab, onSelectSearchResult }
     <header className="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-surface-variant shadow-sm transition-all">
       <div className="w-full max-w-[1400px] mx-auto px-3 sm:px-4 md:px-6 h-20 flex items-center justify-between gap-2 md:gap-4">
         
-        {/* 1. BRAND & LOGO (Compact shrink-0) */}
+        {/* BRAND & LOGO */}
         <div 
           onClick={() => setActiveTab('dashboard')}
           className="flex items-center gap-2 md:gap-3 cursor-pointer select-none shrink-0"
         >
           <img 
-            src="/logo.png" 
+            src="./logo.png" 
             alt="KAYSEN Logo" 
             className="h-8 md:h-9 w-auto object-contain rounded"
             onError={(e) => { e.target.style.display = 'none'; }}
@@ -117,7 +117,7 @@ export default function Header({ activeTab, setActiveTab, onSelectSearchResult }
           </div>
         </div>
 
-        {/* 2. ENHANCED SEARCH BAR PILL */}
+        {/* ENHANCED SEARCH BAR PILL */}
         <div className="relative shrink-0 w-40 sm:w-48 md:w-56 lg:w-64" ref={searchRef}>
           <div className="relative flex items-center">
             <Search className="w-4 h-4 text-secondary absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
@@ -248,7 +248,7 @@ export default function Header({ activeTab, setActiveTab, onSelectSearchResult }
           )}
         </div>
 
-        {/* 3. FIT 100% TOP NAVBAR NAVIGATION TABS */}
+        {/* FIT 100% TOP NAVBAR NAVIGATION TABS */}
         <nav className="hidden lg:flex items-center gap-1 xl:gap-1.5 shrink min-w-0">
           {navItems.map((item) => {
             const isActive = activeTab === item.id;
